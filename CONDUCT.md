@@ -84,8 +84,8 @@ Jenny - shared google doc
 
 
 
-![Jenny Signature](src/imgs/jenny-signature.png#gh-light-mode-only) ![Jenny Signature](src/imgs/jenny-signature-w.png#gh-dark-mode-only) 
-![Justin Signature](src/imgs/justin-sig.png#gh-light-mode-only) ![Justin Signature](src/imgs/justin-sig-w.png#gh-dark-mode-only)
-![Ilanna Signature](src/imgs/Ilanna-signature.png#gh-light-mode-only) ![Ilanna Signature](src/imgs/Ilanna-signature-w.png#gh-dark-mode-only)
+<img src="src/imgs/jenny-signature.png#gh-light-mode-only" width=50% height=50%> <img src="src/imgs/jenny-signature-w.png#gh-dark-mode-only" width=50% height=50%>
+<img src="src/imgs/justin-sig.png#gh-light-mode-only" width=50% height=50%> <img src="src/imgs/justin-sig-w.png#gh-dark-mode-only" width=50% height=50%>
+<img src="src/imgs/Ilanna-signature.png#gh-light-mode-only" width=50% height=50%> <img src="src/imgs/Ilanna-signature-w.png#gh-dark-mode-only" width=50% height=50%>
 
 
