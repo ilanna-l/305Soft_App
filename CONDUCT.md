@@ -84,3 +84,4 @@ Jenny - shared google doc
 
 
 
+![Jenny Signature](src/imgs/jenny-signature.png) ![Justin Signature](src/imgs/justin-sig.png)
