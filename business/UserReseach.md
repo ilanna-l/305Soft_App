@@ -17,10 +17,14 @@
     
     - Team Action (if any): Add feature that tracks who is buying which shared items with options to set random users to each shared item or give each roommate the same item over and over
 
-- Observation 4:
-    - Observation Statement:
+- Observation 4: Survey participants were asked to choose their preferred name for the app 
+    - Observation Statement: Based on the responses of survey participants, the majority of participants voted to name
+    the app "ROOMIE". The name of the app is part of what initially catches the user's attention. A catchy name contributes to the overall experience of the app.
     - Supporting Data:
-    - Team Action (if any):
+
+        <img src =../src/imgs/Name_survey.png height = 50% width = 50%>
+
+    - Team Action (if any): Implement a name according to the most popular response (ROOMIE). 
 
 - Observation 5: Survey participants explained how living with other indiviuals is socially fullfulling; being able to connect and collaberate with others in a shared space. 
     - Observation Statement: What do you like about living with roommates? (Section on GSheets) 
