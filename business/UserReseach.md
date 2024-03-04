@@ -11,8 +11,10 @@
 
 - Observation 3:
     - Observation Statement: Majority of Participants claim to have shared expenses when it comes to household items
-    - Supporting Data: 
-    ![Survey Response Screenshot](../src/imgs/SE-survey.png)
+    - Supporting Data:
+      
+         <img src =../src/imgs/SE-survey.png height=50% width=50%> 
+    
     - Team Action (if any): Add feature that tracks who is buying which shared items with options to set random users to each shared item or give each roommate the same item over and over
 
 - Observation 4:
