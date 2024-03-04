@@ -1,6 +1,6 @@
 # ROOMIE APP
 Contributors: Ilanna Langton, Jenny You, Justin Chacon, Angel Castano, Mani Dukes
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CONTDUCT.md)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CONDUCT.md)
 
 
 **About** <br>
