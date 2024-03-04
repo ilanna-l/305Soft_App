@@ -10,9 +10,10 @@
     - Team Action (if any): We can prioritize cleaning chores for users, and evenly distribute these chores among roommates so that each individial has incentive to clean at least once, rather than one person doing all of the work. This is also a way to ensure that the chore gets done. 
 
 - Observation 3:
-    - Observation Statement:
-    - Supporting Data:
-    - Team Action (if any):
+    - Observation Statement: Majority of Participants claim to have shared expenses when it comes to household items
+    - Supporting Data: 
+    ![Survey Response Screenshot](../src/imgs/SE-survey.png)
+    - Team Action (if any): Add feature that tracks who is buying which shared items with options to set random users to each shared item or give each roommate the same item over and over
 
 - Observation 4:
     - Observation Statement:
