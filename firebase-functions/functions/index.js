@@ -42,19 +42,13 @@ const checkHouseholdID = () => {
   generatedIDList.push(id);
   return id;
 };
-/*
-exports.generateCode = onRequest((request, response) => {
-  const id = checkHouseholdID();
-  response.send({HouseholdID: id});
-});
-*/
 
 exports.generateCode = onRequest(async (request, response) => {
   const id = checkHouseholdID();
 
   try {
     // Write the generated ID to the Realtime Database
-    const ref = database.ref("Households").push();
+    const ref = database.ref("Households").child(id);
     await ref.set({id});
 
     response.send({HouseholdID: id});
