@@ -8,6 +8,10 @@
  */
 
 const {onRequest} = require("firebase-functions/v2/https");
+const admin = require("firebase-admin");
+admin.initializeApp();
+const database = admin.database();
+
 // const logger = require("firebase-functions/logger");
 
 // Create and deploy your first functions
@@ -39,7 +43,17 @@ const checkHouseholdID = () => {
   return id;
 };
 
-exports.generateCode = onRequest((request, response) => {
+exports.generateCode = onRequest(async (request, response) => {
   const id = checkHouseholdID();
-  response.send({HouseholdID: id});
+
+  try {
+    // Write the generated ID to the Realtime Database
+    const ref = database.ref("Households").child(id);
+    await ref.set({id});
+
+    response.send({HouseholdID: id});
+  } catch (error) {
+    console.error("Error writing to database:", error);
+    response.status(500).send("Error generating ID");
+  }
 });
