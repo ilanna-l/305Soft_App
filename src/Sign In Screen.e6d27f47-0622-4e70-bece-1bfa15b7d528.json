@@ -1,4 +1,5 @@
 {
+    "id": "e6d27f47-0622-4e70-bece-1bfa15b7d528",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -730,7 +731,6 @@
             "name": "Image3"
         }
     ],
-    "id": "e6d27f47-0622-4e70-bece-1bfa15b7d528",
     "thunkableVersion": 447,
     "bindings": null,
     "name": "Sign In Screen"
