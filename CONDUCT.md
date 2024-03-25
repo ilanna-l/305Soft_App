@@ -87,5 +87,8 @@ Jenny - shared google doc
 <img src="src/imgs/jenny-signature.png#gh-light-mode-only" width=50% height=50%> <img src="src/imgs/jenny-signature-w.png#gh-dark-mode-only" width=50% height=50%>
 <img src="src/imgs/justin-sig.png#gh-light-mode-only" width=50% height=50%> <img src="src/imgs/justin-sig-w.png#gh-dark-mode-only" width=50% height=50%>
 <img src="src/imgs/Ilanna-signature.png#gh-light-mode-only" width=50% height=50%> <img src="src/imgs/Ilanna-signature-w.png#gh-dark-mode-only" width=50% height=50%>
+<img src="src/imgs/imani.png#gh-light-mode-only" width=50% height=50%> <img src="src/imgs/Imani-signature.png#gh-dark-mode-only" width=50% height=50%>
+
+<img src = "src/imgs/Angel_signature.png#gh-light-mode-only" width = 50% height = 50%> <img src = "src/imgs/Angel_WHITE_signature.png#gh-dark-mode-only" width = 50% height = 50%>
 
 

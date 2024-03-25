@@ -1,1 +1,1 @@
-
+ROOMIE is an app built for roommates to deliberate and track house chores, bills, and shared shopping lists in a drama free way.
