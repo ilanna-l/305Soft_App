@@ -5,7 +5,7 @@ METRIC 1: In order to gauge user happiness using rating and NPS we would include
 
 METRIC 2: Number of households being created - We can collect this data using the Google Cloud console in order to track the usage of our Cloud Functions (such as the generateCode function in order to generate a new household)
 
-METRIC 3: *-how to collect-*
+METRIC 3: How often the app is used - We can collect this data by looking at how many times in a day users open the app and for how long they open the app. 
 
 METRIC 4: *-how to collect-*
 
