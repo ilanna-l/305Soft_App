@@ -1,7 +1,7 @@
 - Observation 1: 
     - Observation Statement: People generally find cleaning shared spaces (living room, bathroom, kitchen) to be more effort
     - Supporting Data: 
-    ![Survey Response Screenshot](../src/imgs/Observation1_data.png)
+    ![Survey Response Screenshot](../imgs/Observation1_data.png)
     - Team Action (if any): Considering how people view the effort required for different chores we can take that into consideration when deciding how chores will be randomly assigned as to not give the same person a high effort chore multiple times in a row.
 
 - Observation 2:
@@ -13,7 +13,7 @@
     - Observation Statement: Majority of Participants claim to have shared expenses when it comes to household items
     - Supporting Data:
       
-         <img src =../src/imgs/SE-survey.png height=50% width=50%> 
+         <img src =../imgs/SE-survey.png height=50% width=50%> 
     
     - Team Action (if any): Add feature that tracks who is buying which shared items with options to set random users to each shared item or give each roommate the same item over and over
 
@@ -22,7 +22,7 @@
     the app "ROOMIE". The name of the app is part of what initially catches the user's attention. A catchy name contributes to the overall experience of the app.
     - Supporting Data:
 
-        <img src =../src/imgs/Name_survey.png height = 50% width = 50%>
+        <img src =../imgs/Name_survey.png height = 50% width = 50%>
 
     - Team Action (if any): Implement a name according to the most popular response (ROOMIE). 
 
