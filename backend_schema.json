@@ -1,0 +1,46 @@
+{
+  "Households": {
+    "HouseholdID": {
+      "Chores": {
+        "Chore": {
+          "assignedUsers": "user1, user2",
+          "description": "Wash the dishes!",
+          "effortLevel": 3,
+          "isComplete": false,
+          "name": "Wash Dishes"
+        }
+      },
+      "Groceries": {
+        "GroceryItem": {
+          "assignedUsers": "user1, user2",
+          "cost": 7,
+          "isComplete": true,
+          "name": "Paper Towels"
+        }
+      },
+      "Shared Expenses": {
+        "Bill": {
+          "assignedUsers": "user1, user2",
+          "cost": 147,
+          "description": "Electricity bill",
+          "due": "3/12/2024",
+          "isComplete": true,
+          "name": "Electricity Bill"
+        },
+        "Rent": {
+          "assignedUsers": "user1, user2",
+          "cost": 800,
+          "description": "Rent for the month",
+          "isComplete": false,
+          "name": "Rent"
+        }
+      }
+    }
+  },
+  "Users": {
+    "UserID": {
+      "Connected Household": "",
+      "Name": ""
+    }
+  }
+}
