@@ -7,7 +7,7 @@ METRIC 2: Number of households being created - We can collect this data using th
 
 METRIC 3: How often the app is used - We can collect this data by looking at how many times in a day users open the app and for how long they open the app inside of firebase analytics.
 
-METRIC 4: *-how to collect-*
+METRIC 4: Retention of the app: To collect data about the retention of the app, we can start by analayzing the amount of times a user uses the app daily/weekly. Then, we can observe how many users have an active renewable subscription. Also, having a low Churn rate over monthly periods (preferably 3% or less) is ideal. 
 
 METRIC 5: *-how to collect-*
 
