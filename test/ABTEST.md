@@ -40,8 +40,8 @@ Variations:
 
 
 ## A/B 4 -Angel-
-**A/B Test Name:** 
-**User Story Number:**
+**A/B Test Name:** Retention 
+**User Story Number:** 
 **Metric (from the HEART grid):** 
 **Hypothestis:**
 
