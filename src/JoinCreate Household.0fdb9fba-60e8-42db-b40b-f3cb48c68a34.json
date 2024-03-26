@@ -1,4 +1,5 @@
 {
+    "id": "0fdb9fba-60e8-42db-b40b-f3cb48c68a34",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -410,7 +411,6 @@
             "name": "Image2"
         }
     ],
-    "id": "0fdb9fba-60e8-42db-b40b-f3cb48c68a34",
     "thunkableVersion": 447,
     "bindings": null,
     "name": "JoinCreate Household"
