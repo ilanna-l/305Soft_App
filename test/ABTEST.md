@@ -1,8 +1,8 @@
 ## A/B 1 -Ilanna-
-A/B Test Name:
-User Story Number:
+A/B Test Name: Dashboard Layout
+User Story Number: US4 Golden Path
 Metric (from the HEART grid):
-
+Hypothestis:
 Experiment:
 
 Variations:
@@ -11,6 +11,7 @@ Variations:
 A/B Test Name:
 User Story Number:
 Metric (from the HEART grid):
+Hypothestis:
 
 Experiment:
 
@@ -20,6 +21,7 @@ Variations:
 A/B Test Name:
 User Story Number:
 Metric (from the HEART grid):
+Hypothestis:
 
 Experiment:
 
@@ -29,6 +31,7 @@ Variations:
 A/B Test Name:
 User Story Number:
 Metric (from the HEART grid):
+Hypothestis:
 
 Experiment:
 
@@ -38,6 +41,7 @@ Variations:
 A/B Test Name:
 User Story Number:
 Metric (from the HEART grid):
+Hypothestis:
 
 Experiment:
 
