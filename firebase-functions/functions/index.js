@@ -12,16 +12,6 @@ const admin = require("firebase-admin");
 admin.initializeApp();
 const database = admin.database();
 
-// const logger = require("firebase-functions/logger");
-
-// Create and deploy your first functions
-// https://firebase.google.com/docs/functions/get-started
-
-// exports.helloWorld = onRequest((request, response) => {
-//   logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
-
 const generateHouseholdID = () => {
   const abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   let id = "";
@@ -43,15 +33,22 @@ const checkHouseholdID = () => {
   return id;
 };
 
-exports.generateCode = onRequest(async (request, response) => {
+exports.createHousehold = onRequest(async (request, response) => {
+  const householdName = request.body.householdName;
+
+  if (!householdName) {
+    response.status(400).send("Missing householdName");
+    return;
+  }
+
   const id = checkHouseholdID();
 
   try {
-    // Write the generated ID to the Realtime Database
+    // Write the generated ID and household name to the Realtime Database
     const ref = database.ref("Households").child(id);
-    await ref.set({id});
+    await ref.set({id, name: householdName});
 
-    response.send({HouseholdID: id});
+    response.send({HouseholdID: id, HouseholdName: householdName});
   } catch (error) {
     console.error("Error writing to database:", error);
     response.status(500).send("Error generating ID");
