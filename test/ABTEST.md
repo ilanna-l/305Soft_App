@@ -38,7 +38,6 @@ Experiment: For this experiment, we can allocate 50% of our user base to a versi
 
 Variations: 
     Variation A (No Customization): The app version that is available to users will not have the opportunity to use customization UI features.
-
     Variation B (Customization): The app version that is available to users will have the opportunity to use customization UI features.
 
 
