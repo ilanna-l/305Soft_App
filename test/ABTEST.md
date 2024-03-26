@@ -34,7 +34,7 @@ Variation B (Experimental Group): Users in this group will experience the update
 **Variations:**
 
 ## A/B 4 -Angel-
-**A/B Test Name:**
+**A/B Test Name:** 
 **User Story Number:**
 **Metric (from the HEART grid):**
 **Hypothestis:**
@@ -44,11 +44,12 @@ Variation B (Experimental Group): Users in this group will experience the update
 **Variations:**
 
 ## A/B 5 -Justin_
-**A/B Test Name:**
-**User Story Number:**
-**Metric (from the HEART grid):**
-**Hypothestis:**
+**A/B Test Name:** Streamline Use
+**User Story Number:** US4: Golden Path
+**Metric (from the HEART grid):** Retention
+**Hypothestis:** The app utilizes many different screens and lists that the user has to interact with, which can cause mental fatigue and decrease user retnetion. If we were to streamline the navigation in a way that everything was available from a single screen by use of drop down menus, we may be able to increase user retention as ease of use goes up. However, the issue here involves streamlining it while retaining diverse functionality. We propose condensing the chore pages down to a single page with drop down menus that can be easily toggled and do not take up the full screen. 
 
-**Experiment:**
+**Experiment:**  Allocate 20% of user base our drop down screen while keeping the other 80% on our default screen. Depending on the satisfaction of the 20% we can increase and tweak the drop down group until we are satisfied or decide it is less intuitive than we thought and scrap the idea.
 
-**Variations:**
+**Variations:** Variation A (Control Group): Users in this group will continue to experience the current chores screen with no changes.
+Variation B (Experimental Group): Users in this group will experience the updated chores screen with the drop down menu functionality
