@@ -1,4 +1,5 @@
 {
+    "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -101,13 +102,13 @@
                         "BackgroundColor": "rgba(255, 255, 255, 1)",
                         "FontWeight": "bold",
                         "TextAlign": "center",
-                        "Height": 48,
-                        "Width": 226,
+                        "Height": 50,
+                        "Width": 228,
                         "Visible": true,
-                        "X": 75.55555725097656,
-                        "Y": 34,
-                        "RelativeX": 81.55555725097656,
-                        "RelativeY": 34,
+                        "X": 76.546875,
+                        "Y": 35,
+                        "RelativeX": 82.546875,
+                        "RelativeY": 35,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "color": "rgba(53, 78, 105, 1)",
@@ -151,7 +152,7 @@
                         },
                         "ParentId": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
                         "position": "absolute",
-                        "edgeOffsets": 34.548614501953125,
+                        "edgeOffsets": 35,
                         "children": "Household Name"
                     },
                     "children": [],
@@ -366,7 +367,6 @@
             "name": "Main - Nav Group"
         }
     ],
-    "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
     "thunkableVersion": 447,
     "name": "User Main Feed"
 }
