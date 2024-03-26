@@ -40,14 +40,19 @@ Variations:
 
 
 ## A/B 4 -Angel-
-**A/B Test Name:** Retention 
-**User Story Number:** 
-**Metric (from the HEART grid):** 
-**Hypothestis:**
+**A/B Test Name:** App Usage
+**User Story Number:** US4: Golden Path
+**Metric (from the HEART grid):** Task Success
+**Hypothestis:** The app features a golden path, where the intended use of the app is for users to create an account, initialize a household and add their roommates, then create lists of chores, groceries, bills, and other tasks within their household. If we minimize the amount of work (minimizing necessary interactions) required for the user to use all the features of the app, we can increase the number of users that follow the golden path, increasing the task success of our app. However, the process of following the golden path requires switching through multiple screens, such as the household, bills, chores, and lists screens. Decreasing the amount of work the user has to go through by switching to multiple screens can increase the likelihood of task success.
 
-**Experiment:**
+**Experiment:** Allocate 50% of our users with a nav bar to navigate to the multiple screens while the other 50% are given one screen containing all the features to keep using the app simpler. we can measure success by: 
 
-**Variations:**
+- measuring the session length
+- measuring user interactions with different pages
+- measure the retention of users for both versions of the app
+
+**Variations:** Variation A (Control Group): Users will be granted access to the version of the app with a navigation bar to switch through the multiple screens.
+Variation B (Experimental Group): Users will be granted access to the version of the app with all the features on the main page. 
 
 ## A/B 5 -Justin_
 **A/B Test Name:** Streamline Use
