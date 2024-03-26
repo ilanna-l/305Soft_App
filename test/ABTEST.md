@@ -49,7 +49,10 @@ Variation B (Experimental Group): Users in this group will experience the update
 **Metric (from the HEART grid):** Retention
 **Hypothestis:** The app utilizes many different screens and lists that the user has to interact with, which can cause mental fatigue and decrease user retnetion. If we were to streamline the navigation in a way that everything was available from a single screen by use of drop down menus, we may be able to increase user retention as ease of use goes up. However, the issue here involves streamlining it while retaining diverse functionality. We propose condensing the chore pages down to a single page with drop down menus that can be easily toggled and do not take up the full screen. 
 
-**Experiment:**  Allocate 20% of user base our drop down screen while keeping the other 80% on our default screen. Depending on the satisfaction of the 20% we can increase and tweak the drop down group until we are satisfied or decide it is less intuitive than we thought and scrap the idea.
+**Experiment:**  Allocate 20% of user base our drop down screen while keeping the other 80% on our default screen. Depending on the satisfaction of the 20% we can increase and tweak the drop down group until we are satisfied or decide it is less intuitive than we thought and scrap the idea. We can measure success by:
+- Measuring average churn rate
+- seeing how much time users spend on one page
+- How often the app is opened
 
 **Variations:** Variation A (Control Group): Users in this group will continue to experience the current chores screen with no changes.
 Variation B (Experimental Group): Users in this group will experience the updated chores screen with the drop down menu functionality
