@@ -24,14 +24,22 @@ Variation B (Experimental Group): Users in this group will experience the update
 **Variations:**
 
 ## A/B 3 -Mani-
-**A/B Test Name:**
-**User Story Number:**
-**Metric (from the HEART grid):**
-**Hypothestis:**
+A/B Test Name: User Feedback 
+User Story Number: US4: Golden Path
+Metric (from the HEART grid): Happiness 
 
-**Experiment:**
+Hypothesis: An app with customizable UI features is ideal to satisfy users in general. If our app does not have some sort of features that users can change for their version of the interface (their accounts), this might deter current and even newer users from using the app. If we were to add different customization options, like different interface colors or even individual avatars that users can choose from, it would be beneficial for the longevity of our app. We propose adding these options to the app settings so users can have individuality.
 
-**Variations:**
+Experiment: For this experiment, we can allocate 50% of our user base to a version of our app with no customizable options (Variation A), while the remaining 50% will be able to use a different version with more customizable options (Variation B). This will allow us to measure the satisfaction levels of our users on whether having customizable options is suitable for the app or not. 
+
+- User app ratings
+- User Feedback
+- How often app settings are viewed/clicked 
+
+Variations: 
+    Variation A (No Customization): The app version that is available to users will not have the opportunity to use customization UI features.
+    Variation B (Customization): The app version that is available to users will have the opportunity to use customization UI features.
+
 
 ## A/B 4 -Angel-
 **A/B Test Name:** 
