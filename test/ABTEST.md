@@ -14,14 +14,12 @@ Variation A (Control Group): Users in this group will continue to experience the
 Variation B (Experimental Group): Users in this group will experience the updated navigation design with organized navigation buttons placed at the bottom of the main page and a side pop-up menu accessible from anywhere in the app.
 
 ## A/B 2 -Jenny-
-**A/B Test Name:**
-**User Story Number:**
-**Metric (from the HEART grid):**
-**Hypothestis:**
+**A/B Test Name:** Ease of Household Creation 
+**User Story Number:** US5 Household Account Linking 
+**Metric (from the HEART grid):** Adoption - Number of households being created
+**Hypothestis:** We have designed the household creation process to be straightforward, generating a household ID and prompting the user for a name upon household creation. However, this process follows two screens, and it may be more beneficial for users to click on just one screen as opposed to two when creating a household, which may lead to more users wanting to create households. 
 
-**Experiment:**
-
-**Variations:**
+**Experiment:** For this experiment, we will allocate 50% of the user base to the experimental group while leaving 50% in the control group. This balanced allocation will allow us to effectively compare the metrics obtained by the two groups, specifically the usage of the cloud function "createHousehold". Using Google's built in cloud functions console, we can create two seperate cloud functions for the two groups, and track usage for both on Firebase. 
 
 ## A/B 3 -Mani-
 A/B Test Name: User Feedback 
