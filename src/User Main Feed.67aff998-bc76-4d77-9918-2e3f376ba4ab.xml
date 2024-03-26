@@ -1,1 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"/>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="component_event" id="(HS.*LZb4_?l$*B6}T,J" x="54" y="35"><mutation xmlns="http://www.w3.org/1999/xhtml" component_id="ef9e6538-eddd-40ac-8121-9d64b37e8a4d" component_name="List Button" component_type="Button" parent_id="undefined" event_id="Click" was_updated="true"/><field name="component_id">ef9e6538-eddd-40ac-8121-9d64b37e8a4d</field><field name="event_id">Click</field></block></xml>

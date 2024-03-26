@@ -1,4 +1,5 @@
 {
+    "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -366,7 +367,6 @@
             "name": "Main - Nav Group"
         }
     ],
-    "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
     "thunkableVersion": 447,
     "name": "User Main Feed"
 }
