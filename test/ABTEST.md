@@ -42,7 +42,7 @@ Variations:
 ## A/B 4 -Angel-
 **A/B Test Name:** 
 **User Story Number:**
-**Metric (from the HEART grid):**
+**Metric (from the HEART grid):** 
 **Hypothestis:**
 
 **Experiment:**
