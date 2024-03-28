@@ -33,22 +33,15 @@ const checkHouseholdID = () => {
   return id;
 };
 
-exports.createHousehold = onRequest(async (request, response) => {
-  const householdName = request.body.householdName;
-
-  if (!householdName) {
-    response.status(400).send("Missing householdName");
-    return;
-  }
-
+exports.getHouseholdName = onRequest(async (request, response) => {
+  const name = request.query.name;
   const id = checkHouseholdID();
 
   try {
-    // Write the generated ID and household name to the Realtime Database
     const ref = database.ref("Households").child(id);
-    await ref.set({id, name: householdName});
+    await ref.set({householdName: name});
 
-    response.send({HouseholdID: id, HouseholdName: householdName});
+    response.send({HouseholdID: id, HouseholdName: name});
   } catch (error) {
     console.error("Error writing to database:", error);
     response.status(500).send("Error generating ID");
