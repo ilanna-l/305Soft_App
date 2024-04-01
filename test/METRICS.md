@@ -9,5 +9,4 @@ METRIC 3: How often the app is used - We can collect this data by looking at how
 
 METRIC 4: Retention of the app: To collect data about the retention of the app, we can start by analayzing the amount of times a user uses the app daily/weekly. Then, we can observe how many users have an active renewable subscription. Also, having a low Churn rate over monthly periods (preferably 3% or less) is ideal. 
 
-METRIC 5: *-how to collect-*
-
+METRIC 5: Task Success: To collect data about the success rate of the the user following the golden path of the app, we can analyze the conversion of the app. The conversion analytics can include multiple events such as creating a new household, adding chores, bills, or assigning tasks to users. These are important events to showcase the app being used in its' intended manner. 

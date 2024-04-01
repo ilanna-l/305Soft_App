@@ -1,5 +1,4 @@
 {
-    "id": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -37,7 +36,7 @@
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
         "TranslucentStatusBar": false,
-        "StatusBarColor": "rgba(0, 0, 0, 0)",
+        "StatusBarColor": "rgba(0,0,0,0.53)",
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
@@ -54,56 +53,9 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {},
-        "Scrollable": true
+        "tabNavigationOptions": {}
     },
     "children": [
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "icons8-menu-78.png",
-                "resizeMode": "stretch",
-                "Height": 51,
-                "Width": 57,
-                "Visible": true,
-                "X": 290,
-                "Y": 70,
-                "RelativeX": 290,
-                "RelativeY": 70,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "76.98608178824205%",
-                    "top": "7.6404888712299845%",
-                    "display": "flex"
-                },
-                "capInsets": {},
-                "ParentId": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
-                "position": "absolute",
-                "edgeOffsets": 70
-            },
-            "children": [],
-            "id": "e18bc45c-7870-41e2-9701-d9aa881deb20",
-            "thunkableVersion": 450,
-            "name": "ManageChores_but"
-        },
         {
             "type": "Group",
             "label": "Group",
@@ -113,10 +65,10 @@
                 "Height": 168,
                 "Width": 321,
                 "Visible": true,
-                "X": 21,
-                "Y": 126,
-                "RelativeX": 21,
-                "RelativeY": 126,
+                "X": 26,
+                "Y": 127,
+                "RelativeX": 26,
+                "RelativeY": 127,
                 "ResizeMode": "STRETCH",
                 "BackgroundColor": "rgba(255, 255, 255, 1)",
                 "BackgroundPictureResizeMode": "contain",
@@ -124,7 +76,7 @@
                 "TouchOpacity": 20,
                 "ParentId": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
                 "position": "absolute",
-                "edgeOffsets": 126.99479675292969,
+                "edgeOffsets": 127,
                 "style": {
                     "position": "absolute",
                     "left": "7.357844453300419%",
@@ -140,17 +92,63 @@
             },
             "children": [
                 {
+                    "type": "Image",
+                    "translatedName": "Image",
+                    "properties": {
+                        "Picture": "icons8-menu-78.png",
+                        "resizeMode": "stretch",
+                        "Height": 46,
+                        "Width": 53,
+                        "Visible": true,
+                        "X": 292,
+                        "Y": 133,
+                        "RelativeX": 266,
+                        "RelativeY": 6,
+                        "ResizeMode": "STRETCH",
+                        "style": {
+                            "marginTop": 0,
+                            "marginBottom": 0,
+                            "marginLeft": 0,
+                            "marginRight": 0,
+                            "paddingTop": 0,
+                            "paddingBottom": 0,
+                            "paddingLeft": 0,
+                            "paddingRight": 0,
+                            "shadowColor": "rgba(0, 0, 0, 0)",
+                            "shadowOpacity": 0,
+                            "scaledShadowOpacity": 0,
+                            "shadowRadius": 0,
+                            "shadowOffset": {
+                                "width": 0,
+                                "height": 0
+                            },
+                            "position": "absolute",
+                            "left": "39.119450755253034%",
+                            "top": "50.81912093002315%",
+                            "display": "flex"
+                        },
+                        "capInsets": {},
+                        "ParentId": "d7ca9f3d-b4de-484a-910d-7b1320eb7c70",
+                        "position": "absolute",
+                        "edgeOffsets": 133.99305725097656
+                    },
+                    "children": [],
+                    "id": "f1711765-4327-4d0d-9ee4-9764e90a6507",
+                    "thunkableVersion": 450,
+                    "name": "EditChores_but"
+                },
+                {
                     "type": "Layout",
                     "translatedName": "Layout",
                     "reactType": "ScrollView",
                     "properties": {
-                        "Height": 53,
-                        "Width": 316,
+                        "Height": 110,
+                        "Width": 318,
                         "Visible": true,
-                        "X": 26.99652862548828,
-                        "Y": 180.99827575683594,
+                        "X": 31.99652862548828,
+                        "Y": 181.9965362548828,
                         "RelativeX": 5.996528625488281,
-                        "RelativeY": 54.99827575683594,
+                        "RelativeY": 54.99653625488281,
                         "ResizeMode": "STRETCH",
                         "Layout": "column",
                         "Justification": "center",
@@ -185,7 +183,7 @@
                         "LayoutDirection": "HORIZONTAL",
                         "ParentId": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
                         "position": "absolute",
-                        "edgeOffsets": 180.99827575683594,
+                        "edgeOffsets": 181.9965362548828,
                         "horizontal": true
                     },
                     "children": [
@@ -203,7 +201,7 @@
                                 "RelativeY": null,
                                 "ResizeMode": "STRETCH",
                                 "Layout": "column",
-                                "Justification": "center",
+                                "Justification": "flex-start",
                                 "Alignment": "flex-start",
                                 "Scrollable": false,
                                 "style": {
@@ -227,7 +225,7 @@
                                     "alignSelf": "stretch",
                                     "display": "flex",
                                     "flexDirection": "column",
-                                    "justifyContent": "center",
+                                    "justifyContent": "flex-start",
                                     "alignItems": "flex-start",
                                     "position": "relative"
                                 },
@@ -242,23 +240,23 @@
                                     "translatedName": "Label",
                                     "reactType": "Text",
                                     "properties": {
-                                        "Text": "- Chore Name",
-                                        "FontSize": 18,
+                                        "Text": "Chore Description...",
+                                        "FontSize": 15,
                                         "Font": "",
                                         "CustomFont": "",
                                         "LineHeight": 1,
                                         "Color": "rgba(0, 0, 0, 1)",
-                                        "Height": 50,
-                                        "Width": 124,
+                                        "Height": 93,
+                                        "Width": 113,
                                         "Visible": true,
-                                        "X": 32.99479293823242,
-                                        "Y": 340.0000305175781,
-                                        "RelativeX": 32.99479293823242,
-                                        "RelativeY": 340.0000305175781,
+                                        "X": 58.99305725097656,
+                                        "Y": 318.9930725097656,
+                                        "RelativeX": 58.99305725097656,
+                                        "RelativeY": 318.9930725097656,
                                         "ResizeMode": "STRETCH",
                                         "style": {
                                             "color": "rgba(0, 0, 0, 1)",
-                                            "fontSize": 18,
+                                            "fontSize": 15,
                                             "fontStyle": "normal",
                                             "textShadowOffset": {},
                                             "letterSpacing": 0,
@@ -295,18 +293,18 @@
                                         },
                                         "ParentId": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
                                         "position": "absolute",
-                                        "edgeOffsets": 340.0000305175781,
-                                        "children": "- Chore Name"
+                                        "edgeOffsets": 318.9930725097656,
+                                        "children": "Chore Description..."
                                     },
                                     "children": [],
-                                    "id": "88614a0a-be03-4d0f-ad15-01d3f7827510",
+                                    "id": "71073543-cf2d-42cb-a3a0-eee155c542b8",
                                     "thunkableVersion": 450,
-                                    "name": "User1_C1_Name"
+                                    "name": "User1_C1_Name1"
                                 }
                             ],
-                            "id": "68111360-cd02-4a37-816b-4a6da7e85967",
+                            "id": "bbec1058-9e0b-4e0d-ac74-ed08e593b08c",
                             "thunkableVersion": 450,
-                            "name": "Container1"
+                            "name": "Container4"
                         },
                         {
                             "type": "ScrollView",
@@ -322,8 +320,8 @@
                                 "RelativeY": null,
                                 "ResizeMode": "STRETCH",
                                 "Layout": "column",
-                                "Justification": "center",
-                                "Alignment": "center",
+                                "Justification": "flex-start",
+                                "Alignment": "flex-start",
                                 "Scrollable": false,
                                 "style": {
                                     "marginTop": 0,
@@ -346,8 +344,8 @@
                                     "alignSelf": "stretch",
                                     "display": "flex",
                                     "flexDirection": "row",
-                                    "justifyContent": "center",
-                                    "alignItems": "center",
+                                    "justifyContent": "flex-start",
+                                    "alignItems": "flex-start",
                                     "position": "relative"
                                 },
                                 "ScrollBarVisible": true,
@@ -361,8 +359,8 @@
                                     "translatedName": "Label",
                                     "reactType": "Text",
                                     "properties": {
-                                        "Text": "mm/dd/yy",
-                                        "FontSize": 18,
+                                        "Text": "Assigned every ...",
+                                        "FontSize": 15,
                                         "Font": "",
                                         "CustomFont": "",
                                         "LineHeight": 1,
@@ -377,7 +375,7 @@
                                         "ResizeMode": "STRETCH",
                                         "style": {
                                             "color": "rgba(0, 0, 0, 1)",
-                                            "fontSize": 18,
+                                            "fontSize": 15,
                                             "fontStyle": "normal",
                                             "textShadowOffset": {},
                                             "letterSpacing": 0,
@@ -415,112 +413,29 @@
                                         "ParentId": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
                                         "position": "absolute",
                                         "edgeOffsets": 381.9965515136719,
-                                        "children": "mm/dd/yy"
+                                        "children": "Assigned every ..."
                                     },
                                     "children": [],
-                                    "id": "2e2cd328-3e9c-4f00-991c-3538248d293a",
+                                    "id": "45860dbb-9490-45ab-a502-9e3b96e511dd",
                                     "thunkableVersion": 450,
-                                    "name": "User1_C1_date"
+                                    "name": "User1_C1_date1"
                                 }
                             ],
-                            "id": "9109a775-c87a-4457-ba1a-af57a1da586b",
+                            "id": "4c06b8c7-2fd2-45bf-b483-936f39dccae0",
                             "thunkableVersion": 450,
-                            "name": "Container2"
-                        },
-                        {
-                            "type": "ScrollView",
-                            "translatedName": "Container",
-                            "reactType": "ScrollView",
-                            "properties": {
-                                "Height": "Fill container",
-                                "Width": "Fill container",
-                                "Visible": true,
-                                "X": null,
-                                "Y": null,
-                                "RelativeX": null,
-                                "RelativeY": null,
-                                "ResizeMode": "STRETCH",
-                                "Layout": "column",
-                                "Justification": "center",
-                                "Alignment": "center",
-                                "Scrollable": false,
-                                "style": {
-                                    "marginTop": 0,
-                                    "marginBottom": 0,
-                                    "marginLeft": 0,
-                                    "marginRight": 0,
-                                    "paddingTop": 0,
-                                    "paddingBottom": 0,
-                                    "paddingLeft": 0,
-                                    "paddingRight": 0,
-                                    "shadowColor": "rgba(0, 0, 0, 0)",
-                                    "shadowOpacity": 0,
-                                    "scaledShadowOpacity": 0,
-                                    "shadowRadius": 0,
-                                    "shadowOffset": {
-                                        "width": 0,
-                                        "height": 0
-                                    },
-                                    "display": "flex",
-                                    "flexDirection": "row",
-                                    "justifyContent": "center",
-                                    "alignItems": "center"
-                                },
-                                "ScrollBarVisible": true,
-                                "LayoutDirection": "HORIZONTAL",
-                                "horizontal": true,
-                                "edgeOffsets": null
-                            },
-                            "children": [
-                                {
-                                    "type": "Checkbox",
-                                    "translatedName": "Checkbox",
-                                    "reactType": "Checkbox",
-                                    "properties": {
-                                        "Value": false,
-                                        "Visible": true,
-                                        "Height": 24,
-                                        "Width": 24,
-                                        "RelativeX": 138,
-                                        "RelativeY": 356,
-                                        "Color": "rgba(184, 233, 134, 1)",
-                                        "UncheckedColor": "rgba(208, 215, 231, 100)",
-                                        "ParentId": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
-                                        "X": 138,
-                                        "Y": 356,
-                                        "position": "absolute",
-                                        "edgeOffsets": {
-                                            "left": "33.252752013936195%",
-                                            "top": "53.44308790242231%"
-                                        },
-                                        "style": {
-                                            "position": "absolute",
-                                            "left": "33.252752013936195%",
-                                            "top": "53.44308790242231%",
-                                            "display": "flex"
-                                        }
-                                    },
-                                    "children": [],
-                                    "id": "c539c80b-bb4c-4e54-ba19-ebe9b8c41c7b",
-                                    "thunkableVersion": 450,
-                                    "name": "User1_C1_check"
-                                }
-                            ],
-                            "id": "64686246-e786-48ef-aef0-46768e12b898",
-                            "thunkableVersion": 450,
-                            "name": "Container3"
+                            "name": "Container5"
                         }
                     ],
-                    "id": "11663c6f-6274-4358-b466-f891ca0a4879",
+                    "id": "0f6a1807-34bc-4a62-a8c0-397fecf5618e",
                     "thunkableVersion": 450,
-                    "name": "Layout1"
+                    "name": "Layout2"
                 },
                 {
                     "type": "Label",
                     "translatedName": "Label",
                     "reactType": "Text",
                     "properties": {
-                        "Text": "Roomate Name",
+                        "Text": "Chore Name",
                         "FontSize": 23,
                         "Font": "",
                         "CustomFont": "",
@@ -530,8 +445,8 @@
                         "Height": 40,
                         "Width": 180,
                         "Visible": true,
-                        "X": 30.998266220092773,
-                        "Y": 135.99827575683594,
+                        "X": 35.99826622009277,
+                        "Y": 136.99827575683594,
                         "RelativeX": 9.998266220092773,
                         "RelativeY": 9.998275756835938,
                         "ResizeMode": "STRETCH",
@@ -576,49 +491,38 @@
                         "ParentId": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
                         "position": "absolute",
                         "edgeOffsets": 135.99827575683594,
-                        "children": "Roomate Name"
+                        "children": "Chore Name"
                     },
                     "children": [],
-                    "id": "82b7c64f-d420-43ba-b1ea-e142a86673e0",
+                    "id": "ff5db922-0da2-4d90-91c9-770cc78cbf0b",
                     "thunkableVersion": 450,
-                    "name": "User1_Name"
+                    "name": "Chore1_Name"
                 }
             ],
-            "id": "38f04911-674e-4271-bf69-82dca213ead1",
+            "id": "0e41db31-c607-4465-bfd3-5b92864ae993",
             "thunkableVersion": 450,
-            "name": "User1"
+            "bindings": null,
+            "name": "User2"
         },
         {
-            "type": "Label",
-            "translatedName": "Label",
-            "reactType": "Text",
+            "type": "Button",
+            "translatedName": "Button",
             "properties": {
-                "Text": "This Weeks Chores",
-                "FontSize": 25,
+                "Text": "+",
+                "TextColor": "#FFFFFF",
+                "FontSize": 29,
                 "Font": "",
                 "CustomFont": "",
-                "LineHeight": 1,
-                "Color": "rgba(53, 78, 105, 1)",
-                "FontWeight": "bold",
-                "TextAlign": "center",
-                "Height": 45,
-                "Width": 311,
+                "BackgroundColor": "rgba(53, 78, 105, 1)",
+                "Height": 50,
+                "Width": 55,
                 "Visible": true,
-                "X": 32,
-                "Y": 32,
-                "RelativeX": 32,
-                "RelativeY": 32,
+                "X": 160,
+                "Y": 494,
+                "RelativeX": 160,
+                "RelativeY": 494,
                 "ResizeMode": "STRETCH",
                 "style": {
-                    "color": "rgba(53, 78, 105, 1)",
-                    "fontSize": 25,
-                    "fontStyle": "normal",
-                    "textShadowOffset": {},
-                    "letterSpacing": 0,
-                    "textDecorationLine": "underline",
-                    "textDecorationStyle": "solid",
-                    "textDecorationColor": "rgba(0, 0, 0, 1)",
-                    "writingDirection": "auto",
                     "marginTop": 0,
                     "marginBottom": 0,
                     "marginLeft": 0,
@@ -627,11 +531,7 @@
                     "paddingBottom": 0,
                     "paddingLeft": 0,
                     "paddingRight": 0,
-                    "flexWrap": "wrap",
-                    "borderWidth": 0,
-                    "borderRadius": 0,
-                    "borderColor": "rgba(236, 237, 237, 1)",
-                    "borderStyle": "solid",
+                    "borderRadius": 15,
                     "shadowColor": "rgba(0, 0, 0, 0)",
                     "shadowOpacity": 0,
                     "scaledShadowOpacity": 0,
@@ -641,22 +541,77 @@
                         "height": 0
                     },
                     "position": "absolute",
-                    "left": "35.89117546458533%",
-                    "top": "5.391601784834507%",
-                    "lineHeight": 1,
-                    "display": "flex",
-                    "textAlign": "center",
-                    "fontWeight": "bold"
+                    "left": "59.862965099042555%",
+                    "top": "31.028914569742952%",
+                    "display": "flex"
                 },
-                "ParentId": "a4aba3de-9c1e-4939-968a-4f53a69fe859",
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "d7ca9f3d-b4de-484a-910d-7b1320eb7c70",
                 "position": "absolute",
-                "edgeOffsets": 32,
-                "children": "This Weeks Chores"
+                "edgeOffsets": 494
             },
             "children": [],
-            "id": "339e267c-ba02-468d-a00a-f6311081ae12",
+            "id": "a6f78b77-2aac-460c-933d-d1cb5c7e2f29",
             "thunkableVersion": 450,
-            "name": "Label14"
+            "bindings": null,
+            "name": "add_chore"
+        },
+        {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "X",
+                "TextColor": "#FFFFFF",
+                "FontSize": 20,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(53, 78, 105, 1)",
+                "Height": 50,
+                "Width": 55,
+                "Visible": true,
+                "X": 303,
+                "Y": 15,
+                "RelativeX": 303,
+                "RelativeY": 15,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "59.862965099042555%",
+                    "top": "31.028914569742952%",
+                    "display": "flex"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "d7ca9f3d-b4de-484a-910d-7b1320eb7c70",
+                "position": "absolute",
+                "edgeOffsets": 15.999999999999993
+            },
+            "children": [],
+            "id": "eea679a1-3ca8-47a4-bf75-b8a2f6b93273",
+            "thunkableVersion": 450,
+            "name": "Back_to_chorefeed"
         },
         {
             "type": "Group",
@@ -664,8 +619,8 @@
             "translatedName": "Group",
             "reactType": "ViewWithProps",
             "properties": {
-                "Height": 101,
-                "Width": 411,
+                "Height": 99,
+                "Width": 409,
                 "Visible": true,
                 "X": 0,
                 "Y": 570,
@@ -739,10 +694,10 @@
                         "edgeOffsets": 597
                     },
                     "children": [],
-                    "id": "88f138cb-3057-498d-9146-ec42e1161539",
+                    "id": "88c72958-4267-4117-814a-ae0bcc4adccd",
                     "thunkableVersion": 449,
                     "bindings": null,
-                    "name": "Main Feed1"
+                    "name": "Main Feed4"
                 },
                 {
                     "type": "Button",
@@ -794,65 +749,10 @@
                         "edgeOffsets": 596
                     },
                     "children": [],
-                    "id": "37fa0162-3b62-42ca-86f1-94799025492e",
-                    "thunkableVersion": 449,
-                    "bindings": null,
-                    "name": "Main Feed1"
-                },
-                {
-                    "type": "Button",
-                    "translatedName": "Button",
-                    "properties": {
-                        "Text": "List Icon",
-                        "TextColor": "rgba(53, 78, 105, 1)",
-                        "FontSize": 16,
-                        "Font": "",
-                        "CustomFont": "",
-                        "BackgroundColor": "rgba(255, 255, 255, 1)",
-                        "Height": 48,
-                        "Width": 59,
-                        "Visible": true,
-                        "X": 196,
-                        "Y": 596,
-                        "RelativeX": 196,
-                        "RelativeY": 26,
-                        "ResizeMode": "STRETCH",
-                        "style": {
-                            "marginTop": 0,
-                            "marginBottom": 0,
-                            "marginLeft": 0,
-                            "marginRight": 0,
-                            "paddingTop": 0,
-                            "paddingBottom": 0,
-                            "paddingLeft": 0,
-                            "paddingRight": 0,
-                            "borderRadius": 15,
-                            "shadowColor": "rgba(0, 0, 0, 0)",
-                            "shadowOpacity": 0,
-                            "scaledShadowOpacity": 0,
-                            "shadowRadius": 0,
-                            "shadowOffset": {
-                                "width": 0,
-                                "height": 0
-                            },
-                            "position": "absolute",
-                            "left": "20.129602447135216%",
-                            "top": "83.32004263881132%",
-                            "display": "flex"
-                        },
-                        "FontBold": false,
-                        "FontItalic": false,
-                        "Raised": false,
-                        "Disabled": false,
-                        "ParentId": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
-                        "position": "absolute",
-                        "edgeOffsets": 596
-                    },
-                    "children": [],
-                    "id": "37fa0162-3b62-42ca-86f1-94799025492e",
+                    "id": "4fe8d820-4a5e-46d5-af67-6d233d0e5c55",
                     "thunkableVersion": 448,
                     "bindings": null,
-                    "name": "List Button1"
+                    "name": "List Button4"
                 },
                 {
                     "type": "Button",
@@ -864,13 +764,13 @@
                         "Font": "",
                         "CustomFont": "",
                         "BackgroundColor": "rgba(255, 255, 255, 1)",
-                        "Height": 52,
-                        "Width": 65,
+                        "Height": 54,
+                        "Width": 67,
                         "Visible": true,
-                        "X": 102,
-                        "Y": 593,
-                        "RelativeX": 102,
-                        "RelativeY": 23,
+                        "X": 101.99653625488281,
+                        "Y": 592,
+                        "RelativeX": 101.99653625488281,
+                        "RelativeY": 22,
                         "ResizeMode": "STRETCH",
                         "style": {
                             "marginTop": 0,
@@ -901,13 +801,13 @@
                         "Disabled": false,
                         "ParentId": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
                         "position": "absolute",
-                        "edgeOffsets": 593
+                        "edgeOffsets": 592.9948120117188
                     },
                     "children": [],
-                    "id": "60a697ef-3746-4965-8be9-04827865869b",
+                    "id": "c050d892-16a4-4a2e-9f2c-761db84f41d5",
                     "thunkableVersion": 448,
                     "bindings": null,
-                    "name": "Chore Button1"
+                    "name": "Chore Button4"
                 },
                 {
                     "type": "Button",
@@ -959,18 +859,19 @@
                         "edgeOffsets": 594
                     },
                     "children": [],
-                    "id": "fd59dd7f-470e-46b5-8f00-282a7b5d4444",
+                    "id": "e1fbfe5f-c0c8-4104-99a0-3942741202d0",
                     "thunkableVersion": 448,
-                    "name": "Bill Button1"
+                    "name": "Bill Button4"
                 }
             ],
-            "id": "b9088512-1a61-418e-bf06-c503624caa5a",
+            "id": "d9e49245-4cc5-40f3-937a-203c6848b0af",
             "thunkableVersion": 449,
             "bindings": null,
-            "name": "Chores - Nav Group"
+            "name": "Lists - Nav Group1"
         }
     ],
-    "thunkableVersion": 447,
+    "id": "d7ca9f3d-b4de-484a-910d-7b1320eb7c70",
+    "thunkableVersion": 450,
     "bindings": null,
-    "name": "Chores Feed"
+    "name": "ManageChores"
 }
