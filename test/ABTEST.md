@@ -3,12 +3,10 @@
 **User Story Number:** US4 Golden Path
 **Metric (from the HEART grid):** Time spent on secondary pages and interaction with different elements
 **Hypothestis:** We have designed our user's dashboard pages to highlight upcoming bills and chores specific to them. While this design is helpful to the user we realize that this may lead to less traffic on our secondary bills, chores, and list screens. We want to increase user interactivity with these screen and belive that adding organized navigation buttons across the user dashboard will increase this traffic to our other pages. We are proposing a navigation bar at the bottom of our main page and a side pop up menu both of which display buttons to each page can be accessed anywhere on the app.
-
 **Experiment:** For this experiment, we will allocate 50% of our user base to the experimental group (Variation B) and the remaining 50% to the control group (Variation A). This balanced allocation will allow us to effectively compare the performance of the updated navigation design with the current design while minimizing potential biases. Firebase Analytics will be configured to track the following success metrics:
 - Average Time Spent on Secondary Pages (bills, chores, lists) per Session
 - Frequency of Interactions with Navigation Elements
 - Completion Rate of In-App Feedback Forms or Surveys
-
 **Variations:**
 Variation A (Control Group): Users in this group will continue to experience the current navigation design with no changes.
 Variation B (Experimental Group): Users in this group will experience the updated navigation design with organized navigation buttons placed at the bottom of the main page and a side pop-up menu accessible from anywhere in the app.
