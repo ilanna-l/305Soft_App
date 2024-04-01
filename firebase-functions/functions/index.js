@@ -91,3 +91,39 @@ exports.getGroceries = onRequest(async (request, response) => {
     response.status(500).send("Error retrieving groceries");
   }
 });
+
+/*
+Function to get chores
+URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/getChores?id=HouseholdID
+Parameter: householdID
+Return: JSON list of chores
+
+Takes in a household ID and returns a list of chores in the household
+*/
+exports.getChores = onRequest(async (request, response) => {
+  const id = request.query.id;
+
+  // Check if householdId is provided
+  if (!id) {
+    response.status(400).send("Household ID is required");
+  }
+
+  try {
+    const ref = database.ref("Households").child(id).child("Chores");
+    const snapshot = await ref.once("value");
+    const chores = snapshot.val();
+
+    const choresList = Object.keys(chores).map((key) => {
+      return {
+        id: key,
+        ...chores[key],
+      };
+    });
+
+    response.send(choresList);
+  } catch (error) {
+    console.error("Error retrieving chores:", error);
+    response.status(500).send("Error retrieving chores");
+  }
+});
+
