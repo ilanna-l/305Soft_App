@@ -33,24 +33,61 @@ const checkHouseholdID = () => {
   return id;
 };
 
-exports.createHousehold = onRequest(async (request, response) => {
-  const householdName = request.body.householdName;
+/*
+Function to create household
+URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/getHouseholdName?name=householdName
+Parameter: name
+Return: HouseholdID and HouseholdName
 
-  if (!householdName) {
-    response.status(400).send("Missing householdName");
-    return;
-  }
-
+Generates new household ID and validates it using chechHouseholdID function,
+Sets the household name in the database and returns the household ID and name
+*/
+exports.getHouseholdName = onRequest(async (request, response) => {
+  const name = request.query.name;
   const id = checkHouseholdID();
 
   try {
-    // Write the generated ID and household name to the Realtime Database
     const ref = database.ref("Households").child(id);
-    await ref.set({id, name: householdName});
+    await ref.set({householdName: name});
 
-    response.send({HouseholdID: id, HouseholdName: householdName});
+    response.send({HouseholdID: id, HouseholdName: name});
   } catch (error) {
     console.error("Error writing to database:", error);
     response.status(500).send("Error generating ID");
+  }
+});
+
+/*
+Function to get groceries
+URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/getGroceries?id=HouseholdID
+Parameter: householdID
+Return: JSON list of groceries
+
+Takes in a household ID and returns a list of groceries in the household
+*/
+exports.getGroceries = onRequest(async (request, response) => {
+  const id = request.query.id;
+
+  // Check if householdId is provided
+  if (!id) {
+    response.status(400).send("Household ID is required");
+  }
+
+  try {
+    const ref = database.ref("Households").child(id).child("Groceries");
+    const snapshot = await ref.once("value");
+    const groceries = snapshot.val();
+
+    const groceriesList = Object.keys(groceries).map((key) => {
+      return {
+        id: key,
+        ...groceries[key],
+      };
+    });
+
+    response.send(groceriesList);
+  } catch (error) {
+    console.error("Error retrieving groceries:", error);
+    response.status(500).send("Error retrieving groceries");
   }
 });
