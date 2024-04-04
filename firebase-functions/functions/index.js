@@ -127,3 +127,37 @@ exports.getChores = onRequest(async (request, response) => {
   }
 });
 
+/*
+Function to get bills
+URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/getExpenses?id=HouseholdID
+Parameter: householdID
+Return: JSON list of bills
+
+Takes in a household ID and returns a list of bills in the household
+*/
+exports.getExpenses = onRequest(async (request, response) => {
+  const id = request.query.id;
+
+  // Check if householdId is provided
+  if (!id) {
+    response.status(400).send("Household ID is required");
+  }
+
+  try {
+    const ref = database.ref("Households").child(id).child("Shared Expenses");
+    const snapshot = await ref.once("value");
+    const bills = snapshot.val();
+
+    const billsList = Object.keys(bills).map((key) => {
+      return {
+        id: key,
+        ...bills[key],
+      };
+    });
+
+    response.send(billsList);
+  } catch (error) {
+    console.error("Error retrieving bills:", error);
+    response.status(500).send("Error retrieving bills");
+  }
+});
