@@ -1,4 +1,5 @@
 {
+    "id": "8bf32fbc-ed1d-4fcb-b30f-e5bfba67e6ec",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -409,7 +410,6 @@
             "name": "Header Group2"
         }
     ],
-    "id": "8bf32fbc-ed1d-4fcb-b30f-e5bfba67e6ec",
     "thunkableVersion": 450,
     "name": "CreateHouse"
 }

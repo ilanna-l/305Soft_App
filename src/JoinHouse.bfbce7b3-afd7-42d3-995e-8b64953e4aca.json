@@ -1,4 +1,5 @@
 {
+    "id": "bfbce7b3-afd7-42d3-995e-8b64953e4aca",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -335,7 +336,7 @@
                     "translatedName": "Label",
                     "reactType": "Text",
                     "properties": {
-                        "Text": "House Settings",
+                        "Text": "Join House",
                         "FontSize": 26,
                         "Font": "",
                         "CustomFont": "",
@@ -395,7 +396,7 @@
                         "ParentId": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
                         "position": "absolute",
                         "edgeOffsets": 34,
-                        "children": "House Settings"
+                        "children": "Join House"
                     },
                     "children": [],
                     "id": "a863ff55-bb40-4cdd-a9c7-fd5d0bf268f2",
@@ -409,7 +410,6 @@
             "name": "Header Group3"
         }
     ],
-    "id": "bfbce7b3-afd7-42d3-995e-8b64953e4aca",
     "thunkableVersion": 450,
     "bindings": null,
     "name": "JoinHouse"
