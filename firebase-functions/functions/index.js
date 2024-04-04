@@ -12,6 +12,14 @@ const admin = require("firebase-admin");
 admin.initializeApp();
 const database = admin.database();
 
+
+/*
+Function to generate household ID
+Parameter: none
+Return: 6 character alphanumeric string
+
+Generates a 6 character alphanumeric string to be used as a household ID
+*/
 const generateHouseholdID = () => {
   const abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
   let id = "";
@@ -22,15 +30,35 @@ const generateHouseholdID = () => {
   return id;
 };
 
-const generatedIDList = [];
+/*
+Function to check household ID
+Parameter: none
+Return: household ID
 
-const checkHouseholdID = () => {
+Generates a household ID and checks if it already exists in the database
+*/
+const checkHouseholdID = async () => {
   let id = generateHouseholdID();
-  while (generatedIDList.includes(id)) {
+  const householdIdsRef = database.ref("Households");
+
+  while (await doesIDExist(householdIdsRef, id)) {
     id = generateHouseholdID();
   }
-  generatedIDList.push(id);
+
+  await householdIdsRef.push(id);
   return id;
+};
+
+/*
+Function to check if ID exists
+Parameter: ref, id
+Return: boolean
+
+Checks if the ID exists in the database and returns a boolean
+*/
+const doesIDExist = async (ref, id) => {
+  const snapshot = await ref.once("value");
+  return snapshot.hasChild(id);
 };
 
 /*
@@ -73,6 +101,12 @@ exports.getGroceries = onRequest(async (request, response) => {
     response.status(400).send("Household ID is required");
   }
 
+  // Check if householdID exists in the database
+  const householdIdsRef = database.ref("Households");
+  if (!(await doesIDExist(householdIdsRef, id))) {
+    response.status(404).send("Household ID not found");
+  }
+
   try {
     const ref = database.ref("Households").child(id).child("Groceries");
     const snapshot = await ref.once("value");
@@ -108,6 +142,12 @@ exports.getChores = onRequest(async (request, response) => {
     response.status(400).send("Household ID is required");
   }
 
+  // Check if householdID exists in the database
+  const householdIdsRef = database.ref("Households");
+  if (!(await doesIDExist(householdIdsRef, id))) {
+    response.status(404).send("Household ID not found");
+  }
+
   try {
     const ref = database.ref("Households").child(id).child("Chores");
     const snapshot = await ref.once("value");
@@ -141,6 +181,12 @@ exports.getExpenses = onRequest(async (request, response) => {
   // Check if householdId is provided
   if (!id) {
     response.status(400).send("Household ID is required");
+  }
+
+  // Check if householdID exists in the database
+  const householdIdsRef = database.ref("Households");
+  if (!(await doesIDExist(householdIdsRef, id))) {
+    response.status(404).send("Household ID not found");
   }
 
   try {
