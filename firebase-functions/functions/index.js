@@ -207,3 +207,78 @@ exports.getExpenses = onRequest(async (request, response) => {
     response.status(500).send("Error retrieving bills");
   }
 });
+
+/*
+Function to add chores
+URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/addGrocery?id=testHouseholdID
+Parameter: householdID, choreData
+Return: JSON object of chore
+
+Tested with the following JSON object:
+{"id":"Chore","assignedUsers":"user1","isComplete":false,"name":"Take out Trash"}
+Using: https://reqbin.com/
+Status: 200 (OK) Time: 89 ms Size: 0.09 kb
+
+Takes in a household ID and chore data and adds the chore to the household
+*/
+exports.addChore = onRequest(async (request, response) => {
+  const id = request.query.id;
+  const choreData = request.body;
+
+  // Check if householdId is provided
+  if (!id) {
+    response.status(400).send("Household ID is required");
+    return;
+  }
+
+  // Check if householdID exists in the database
+  const householdIdsRef = database.ref("Households");
+  if (!(await doesIDExist(householdIdsRef, id))) {
+    response.status(404).send("Household ID not found");
+    return;
+  }
+
+  try {
+    const ref = database.ref("Households").child(id).child("Chores").push();
+    await ref.set(choreData);
+    response.send({id: ref.key, ...choreData});
+  } catch (error) {
+    console.error("Error adding chore:", error);
+    response.status(500).send("Error adding chore");
+  }
+});
+
+exports.addChore2 = onRequest(async (request, response) => {
+  const id = request.query.id;
+  const choreData = request.body;
+
+  // Check if householdId is provided
+  if (!id) {
+    response.status(400).send("Household ID is required");
+    return;
+  }
+
+  // Check if householdID exists in the database
+  const householdIdsRef = database.ref("Households");
+  if (!(await doesIDExist(householdIdsRef, id))) {
+    response.status(404).send("Household ID not found");
+    return;
+  }
+
+  try {
+    const choreRef = database.ref("Households").child(id).child("Chores").child(choreData.id);
+
+    // Check if the chore ID already exists
+    const snapshot = await choreRef.once("value");
+    if (snapshot.exists()) {
+      response.status(409).send("Chore ID already exists");
+      return;
+    }
+
+    await choreRef.set(choreData);
+    response.send(choreData);
+  } catch (error) {
+    console.error("Error adding chore:", error);
+    response.status(500).send("Error adding chore");
+  }
+});
