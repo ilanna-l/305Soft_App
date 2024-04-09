@@ -7,6 +7,8 @@
  * See a full list of supported triggers at https://firebase.google.com/docs/functions
  */
 
+/* eslint-disable max-len*/
+
 const {onRequest} = require("firebase-functions/v2/https");
 const admin = require("firebase-admin");
 admin.initializeApp();
@@ -210,7 +212,7 @@ exports.getExpenses = onRequest(async (request, response) => {
 
 /*
 Function to add chores
-URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/addGrocery?id=testHouseholdID
+URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/addChore?id=testHouseholdID
 Parameter: householdID, choreData
 Return: JSON object of chore
 
@@ -218,37 +220,21 @@ Tested with the following JSON object:
 {"id":"Chore","assignedUsers":"user1","isComplete":false,"name":"Take out Trash"}
 Using: https://reqbin.com/
 Status: 200 (OK) Time: 89 ms Size: 0.09 kb
+Returns:
+{
+    "id": "Chore45",
+    "assignedUsers": "user3",
+    "isComplete": false,
+    "name": "Random Chore"
+}
+
+{"id":"Chore","assignedUsers":"user1, user2","description":"Wash the dishes!","effortLevel":3,"isComplete":false,"name":"Wash Dishes"}
+Status: 409 (Conflict) Time: 89 ms Size: 0.02 kb
+Returns: Chore ID already exists (expected)
 
 Takes in a household ID and chore data and adds the chore to the household
 */
 exports.addChore = onRequest(async (request, response) => {
-  const id = request.query.id;
-  const choreData = request.body;
-
-  // Check if householdId is provided
-  if (!id) {
-    response.status(400).send("Household ID is required");
-    return;
-  }
-
-  // Check if householdID exists in the database
-  const householdIdsRef = database.ref("Households");
-  if (!(await doesIDExist(householdIdsRef, id))) {
-    response.status(404).send("Household ID not found");
-    return;
-  }
-
-  try {
-    const ref = database.ref("Households").child(id).child("Chores").push();
-    await ref.set(choreData);
-    response.send({id: ref.key, ...choreData});
-  } catch (error) {
-    console.error("Error adding chore:", error);
-    response.status(500).send("Error adding chore");
-  }
-});
-
-exports.addChore2 = onRequest(async (request, response) => {
   const id = request.query.id;
   const choreData = request.body;
 
