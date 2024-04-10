@@ -216,9 +216,10 @@ URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/addChore?id=testHouseh
 Parameter: householdID, choreData
 Return: JSON object of chore
 
-Tested with the following JSON object:
-{"id":"Chore","assignedUsers":"user1","isComplete":false,"name":"Take out Trash"}
+Tested with the following JSON objects:
 Using: https://reqbin.com/
+
+{"id":"Chore","assignedUsers":"user1","isComplete":false,"name":"Take out Trash"}
 Status: 200 (OK) Time: 89 ms Size: 0.09 kb
 Returns:
 {
@@ -266,5 +267,76 @@ exports.addChore = onRequest(async (request, response) => {
   } catch (error) {
     console.error("Error adding chore:", error);
     response.status(500).send("Error adding chore");
+  }
+});
+
+
+/*
+Function to add groceries
+URL:https://us-central1-soft-app-4f7f9.cloudfunctions.net/addGroceries?id=testHouseholdID
+Parameter: householdID, groceriesData
+Return: JSON object of groceries
+
+Tested with the following JSON objects:
+Using: https://reqbin.com/
+Status: 200 (OK) Time: 489 ms Size: 0.10 kb
+Returns:
+{
+    "id": "GroceryItem",
+    "assignedUser": "user1, user2",
+    "cost": 3,
+    "isComplete": false,
+    "name": "Paper Towels"
+}
+
+{"id":"GroceryItem2","assignedUser":"user1","cost":22,"isComplete":true,"name":"Erewhon Smoothie "}
+Status: 200 (OK) Time: 100 ms Size: 0.10 kb
+Returns:
+{
+    "id": "GroceryItem2",
+    "assignedUser": "user1",
+    "cost": 22,
+    "isComplete": true,
+    "name": "Erewhon Smoothie "
+}
+
+{"id":"GroceryItem","assignedUser":"user2","cost":10,"isComplete":false,"name":"Paper Plates "}
+Status: 409 (Conflict) Time: 81 ms Size: 0.03 kb
+Returns: Groceries ID already exists (expected)
+
+Takes in a household ID and chore data and adds the chore to the household
+*/
+exports.addGroceries = onRequest(async (request, response) => {
+  const id = request.query.id;
+  const groceriesData = request.body;
+
+  // Check if householdId is provided
+  if (!id) {
+    response.status(400).send("Household ID is required");
+    return;
+  }
+
+  // Check if householdID exists in the database
+  const householdIdsRef = database.ref("Households");
+  if (!(await doesIDExist(householdIdsRef, id))) {
+    response.status(404).send("Household ID not found");
+    return;
+  }
+
+  try {
+    const groceriesRef = database.ref("Households").child(id).child("Groceries").child(groceriesData.id);
+
+    // Check if the chore ID already exists
+    const snapshot = await groceriesRef.once("value");
+    if (snapshot.exists()) {
+      response.status(409).send("Groceries ID already exists");
+      return;
+    }
+
+    await groceriesRef.set(groceriesData);
+    response.send(groceriesData);
+  } catch (error) {
+    console.error("Error adding groceries:", error);
+    response.status(500).send("Error adding groceries");
   }
 });
