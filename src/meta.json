@@ -303,7 +303,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "2",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
@@ -330,11 +330,6 @@
                 "32581aa5-d6e8-400f-9184-5b5390d6af11": {
                     "scope": "APP",
                     "name": "Data Index",
-                    "screenId": "b1657e7d-1ccc-46de-9093-df9b84914b50"
-                },
-                "7daa47a5-439a-45fb-a456-3065573af22c": {
-                    "scope": "APP",
-                    "name": "Verify Delete",
                     "screenId": "b1657e7d-1ccc-46de-9093-df9b84914b50"
                 },
                 "ac1c6b2b-3946-4e21-85af-d23d0f11399f": {
