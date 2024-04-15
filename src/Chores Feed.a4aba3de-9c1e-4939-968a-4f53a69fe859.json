@@ -139,7 +139,7 @@
                     "type": "Button",
                     "translatedName": "Button",
                     "properties": {
-                        "Text": "Add Bill",
+                        "Text": "Add Chore",
                         "TextColor": "rgba(0, 0, 0, 1)",
                         "FontSize": 16,
                         "Font": "",
