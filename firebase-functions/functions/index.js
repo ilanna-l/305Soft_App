@@ -273,7 +273,6 @@ exports.addChore = onRequest(async (request, response) => {
     console.error("Error adding chore:", error);
     response.status(500).send("Error adding chore");
   }
-
 });
 
 
