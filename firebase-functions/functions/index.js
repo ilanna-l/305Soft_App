@@ -41,6 +41,7 @@ Generates a household ID and checks if it already exists in the database
 */
 const checkHouseholdID = async () => {
   let id = generateHouseholdID();
+
   const householdIdsRef = database.ref("Households");
 
   while (await doesIDExist(householdIdsRef, id)) {
@@ -74,16 +75,19 @@ Sets the household name in the database and returns the household ID and name
 */
 exports.getHouseholdName = onRequest(async (request, response) => {
   const name = request.query.name;
-  const id = checkHouseholdID();
-
   try {
+    if (!name) {
+      throw new Error("Household name is required.");
+    }
+
+    const id = await checkHouseholdID();
     const ref = database.ref("Households").child(id);
     await ref.set({householdName: name});
 
     response.send({HouseholdID: id, HouseholdName: name});
   } catch (error) {
     console.error("Error writing to database:", error);
-    response.status(500).send("Error generating ID");
+    response.status(500).send("Error generating ID or invalid household name");
   }
 });
 
@@ -252,6 +256,7 @@ exports.addChore = onRequest(async (request, response) => {
     return;
   }
 
+
   try {
     const choreRef = database.ref("Households").child(id).child("Chores").child(choreData.id);
 
@@ -268,6 +273,7 @@ exports.addChore = onRequest(async (request, response) => {
     console.error("Error adding chore:", error);
     response.status(500).send("Error adding chore");
   }
+
 });
 
 
