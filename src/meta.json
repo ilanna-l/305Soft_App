@@ -47,8 +47,8 @@
                     "createdAt": "2024-03-05T19:08:17.789Z",
                     "updatedAt": "2024-03-05T19:08:17.789Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b25c850d4f596d43290b56/projects/65e76d90eb0753c688a9c172/assets/65e76da1f05d06f409f04b15?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240414%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240414T233817Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=9fbb8bc62b98e66c282791256e829424f23f8631c7dd3abe3327030b24c8f77c149e8e136650b1774d95e985bcfa0a9eb5989a1338aead02dca54273d073cc1a9b0a35d6e3ee9ca2c8181ec68b4dcbf5e3629197ee35108e28daddb624c1f85ed98aa90d821b2e097bd9de7a7efed9dc0ce7e68575878c9debeebef192da5501b70122ef8ad18f459298476360ae3958fe1b911b9fc055982b3156437a6852431ce18527c31420ae6f694d8b204d1326f297553288fdecc0e7080c7ba7f4522b006d520f8da7e729569c0624b17b79945cb09fc12fec1dccb1b078ac2906dd9c8c2c973b11f3fc7d1a4308d06e1b5e3bbe32ea2b7979dc3ea60d1306a94c782d",
-                    "signedUrlExpirationTime": 1713310697756
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b25c850d4f596d43290b56/projects/65e76d90eb0753c688a9c172/assets/65e76da1f05d06f409f04b15?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240419%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240419T214004Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=4fec9a59aa4f60535320d48a79c1936053252416042e4f418e54ac2b99c0c99835434b7805b8e4349d01d6c76fde6a3577d43321f5488c5a609cf9d73ab8ed37e0012a1272d6d1bdd21867fad1eefeea2f464394a9470aecd25fdfa662d561c7104ceb06a3ecc9f58c0ec8529e9d717ea9224c08ff139bbc256d69a2fa9cf58ce3f91828bdac9575bd11dc739c34b24610989f236f0708e1ccbf154d3899a3534b32d5815ad1409014b5081a7fddf1f7534bcad39a0fc3a8fcc3ee3068a618b1990b745bc740cbbc19d59f2ae0f27c2d761e296c15d943a3dff4a945e3b7ec6005e48d17c6668fc515ef5590a2b89bfac282b97900812dba7f6a7f485cf0017b",
+                    "signedUrlExpirationTime": 1713735604043
                 }
             },
             "backendUpgradeVersion": 25,
@@ -163,7 +163,19 @@
                         "iap": false
                     }
                 },
-                "65fc45e85ec5a50d11eb3421": {}
+                "65fc45e85ec5a50d11eb3421": {},
+                "36d8094c-4dbf-44f2-a112-ca896c5a4594": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "65d40d346af3f2a6ede92cad": {}
             },
             "categories": [
                 "Just testing"
@@ -187,6 +199,9 @@
                     },
                     {
                         "id": "bfbce7b3-afd7-42d3-995e-8b64953e4aca"
+                    },
+                    {
+                        "id": "36d8094c-4dbf-44f2-a112-ca896c5a4594"
                     },
                     {
                         "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab"
@@ -303,7 +318,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "1",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
