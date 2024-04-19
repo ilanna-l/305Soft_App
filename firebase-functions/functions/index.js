@@ -118,14 +118,17 @@ exports.getGroceries = onRequest(async (request, response) => {
     const snapshot = await ref.once("value");
     const groceries = snapshot.val();
 
-    const groceriesList = Object.keys(groceries).map((key) => {
-      return {
-        id: key,
-        ...groceries[key],
-      };
-    });
-
-    response.send(groceriesList);
+    if (!groceries) {
+      response.status(404).send("No groceries found");
+    } else {
+      const groceriesList = Object.keys(groceries).map((key) => {
+        return {
+          id: key,
+          ...groceries[key],
+        };
+      });
+      response.send(groceriesList);
+    }
   } catch (error) {
     console.error("Error retrieving groceries:", error);
     response.status(500).send("Error retrieving groceries");
@@ -159,14 +162,18 @@ exports.getChores = onRequest(async (request, response) => {
     const snapshot = await ref.once("value");
     const chores = snapshot.val();
 
-    const choresList = Object.keys(chores).map((key) => {
-      return {
-        id: key,
-        ...chores[key],
-      };
-    });
+    if (!chores) {
+      response.status(404).send("No chores found");
+    } else {
+      const choresList = Object.keys(chores).map((key) => {
+        return {
+          id: key,
+          ...chores[key],
+        };
+      });
 
-    response.send(choresList);
+      response.send(choresList);
+    }
   } catch (error) {
     console.error("Error retrieving chores:", error);
     response.status(500).send("Error retrieving chores");
@@ -200,14 +207,18 @@ exports.getExpenses = onRequest(async (request, response) => {
     const snapshot = await ref.once("value");
     const bills = snapshot.val();
 
-    const billsList = Object.keys(bills).map((key) => {
-      return {
-        id: key,
-        ...bills[key],
-      };
-    });
+    if (!bills) {
+      response.status(404).send("No bills found");
+    } else {
+      const billsList = Object.keys(bills).map((key) => {
+        return {
+          id: key,
+          ...bills[key],
+        };
+      });
 
-    response.send(billsList);
+      response.send(billsList);
+    }
   } catch (error) {
     console.error("Error retrieving bills:", error);
     response.status(500).send("Error retrieving bills");
