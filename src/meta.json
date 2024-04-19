@@ -164,7 +164,8 @@
                     }
                 },
                 "65fc45e85ec5a50d11eb3421": {},
-                "36d8094c-4dbf-44f2-a112-ca896c5a4594": {
+                "65d40d346af3f2a6ede92cad": {},
+                "6dd86054-2202-496f-9d64-14548b8c6b27": {
                     "xml": "",
                     "permissions": {
                         "android": [],
@@ -174,8 +175,7 @@
                         "location": true,
                         "iap": false
                     }
-                },
-                "65d40d346af3f2a6ede92cad": {}
+                }
             },
             "categories": [
                 "Just testing"
@@ -201,10 +201,10 @@
                         "id": "bfbce7b3-afd7-42d3-995e-8b64953e4aca"
                     },
                     {
-                        "id": "36d8094c-4dbf-44f2-a112-ca896c5a4594"
+                        "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab"
                     },
                     {
-                        "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab"
+                        "id": "6dd86054-2202-496f-9d64-14548b8c6b27"
                     },
                     {
                         "id": "a4aba3de-9c1e-4939-968a-4f53a69fe859"
