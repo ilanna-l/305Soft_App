@@ -273,7 +273,6 @@ exports.addChore = onRequest(async (request, response) => {
     console.error("Error adding chore:", error);
     response.status(500).send("Error adding chore");
   }
-
 });
 
 
@@ -345,7 +344,7 @@ exports.addGroceries = onRequest(async (request, response) => {
     response.send(groceriesData);
   } catch (error) {
     console.error("Error adding groceries:", error);
-    response.status(500).send("Error adding groceries");
+    response.status(500).send("Error adding groceries:");
   }
 });
 
@@ -423,3 +422,4 @@ exports.addBills = onRequest(async (request, response) => {
     response.status(500).send("Error adding bill");
   }
 });
+
