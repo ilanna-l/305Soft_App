@@ -344,7 +344,7 @@ exports.addGroceries = onRequest(async (request, response) => {
     response.send(groceriesData);
   } catch (error) {
     console.error("Error adding groceries:", error);
-    response.status(500).send("Error adding groceries:");
+    response.status(500).send("Error adding groceries");
   }
 });
 
