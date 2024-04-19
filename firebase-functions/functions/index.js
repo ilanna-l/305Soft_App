@@ -168,7 +168,6 @@ exports.getChores = onRequest(async (request, response) => {
 
     response.send(choresList);
   } catch (error) {
-    console.log(chores.List);
     console.error("Error retrieving chores:", error);
     response.status(500).send("Error retrieving chores");
   }
@@ -270,9 +269,7 @@ exports.addChore = onRequest(async (request, response) => {
 
     await choreRef.set(choreData);
     response.send(choreData);
-    console.log(choreData);
   } catch (error) {
-    console.log(choreData);
     console.error("Error adding chore:", error);
     response.status(500).send("Error adding chore");
   }
