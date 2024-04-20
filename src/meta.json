@@ -47,8 +47,8 @@
                     "createdAt": "2024-03-05T19:08:17.789Z",
                     "updatedAt": "2024-03-05T19:08:17.789Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b25c850d4f596d43290b56/projects/65e76d90eb0753c688a9c172/assets/65e76da1f05d06f409f04b15?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240419%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240419T214004Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=4fec9a59aa4f60535320d48a79c1936053252416042e4f418e54ac2b99c0c99835434b7805b8e4349d01d6c76fde6a3577d43321f5488c5a609cf9d73ab8ed37e0012a1272d6d1bdd21867fad1eefeea2f464394a9470aecd25fdfa662d561c7104ceb06a3ecc9f58c0ec8529e9d717ea9224c08ff139bbc256d69a2fa9cf58ce3f91828bdac9575bd11dc739c34b24610989f236f0708e1ccbf154d3899a3534b32d5815ad1409014b5081a7fddf1f7534bcad39a0fc3a8fcc3ee3068a618b1990b745bc740cbbc19d59f2ae0f27c2d761e296c15d943a3dff4a945e3b7ec6005e48d17c6668fc515ef5590a2b89bfac282b97900812dba7f6a7f485cf0017b",
-                    "signedUrlExpirationTime": 1713735604043
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b25c850d4f596d43290b56/projects/65e76d90eb0753c688a9c172/assets/65e76da1f05d06f409f04b15?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240420%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240420T214103Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=0c98acfcb4da7237f6f685cc3b51feb5e333024425f4fd33bcbe26dd5ddf5b47b89c997544d51a3472e6eb59722ad361608201d0c91322ab2219cc98bec6fa4968e2749949d00c238e8ab5230a13c0b62f8ef20dbb0f2fa8a8edfa077f0baa1cba218312114c7c6d944087eb1c55ec3f88679dc1b8be4a7bfd4f3370607520b74b55b96c57ba144d25c2fc55fc8da7f9b7914c85d8323572b96e80316ef72c18b6203a8a4efbe715d9905dd14811c9f389ac67a44fe311facffa7e87e2767ca9819472d426a23e2502cffe51553799631f917df94969bb6ec9d6377b4a9b8e9e6697f642eea8b1e9231a8b335f51750f244dd489cc858f2a1233f534e81f277f",
+                    "signedUrlExpirationTime": 1713822063064
                 }
             },
             "backendUpgradeVersion": 25,
@@ -165,11 +165,59 @@
                 },
                 "65fc45e85ec5a50d11eb3421": {},
                 "65d40d346af3f2a6ede92cad": {},
-                "6dd86054-2202-496f-9d64-14548b8c6b27": {
+                "dcc4fca2-46b4-44cd-b60e-70d57f5a103b": {
                     "xml": "",
                     "permissions": {
                         "android": [],
                         "ios": []
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "28339500-2fe6-425a-b69e-de85636de1ba": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            },
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            }
+                        ]
+                    },
+                    "enabledFeatures": {
+                        "location": true,
+                        "iap": false
+                    }
+                },
+                "14659181-7305-4888-807d-c7fbb298952b": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
                     },
                     "enabledFeatures": {
                         "location": true,
@@ -201,10 +249,16 @@
                         "id": "bfbce7b3-afd7-42d3-995e-8b64953e4aca"
                     },
                     {
-                        "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab"
+                        "id": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b"
                     },
                     {
-                        "id": "6dd86054-2202-496f-9d64-14548b8c6b27"
+                        "id": "28339500-2fe6-425a-b69e-de85636de1ba"
+                    },
+                    {
+                        "id": "14659181-7305-4888-807d-c7fbb298952b"
+                    },
+                    {
+                        "id": "67aff998-bc76-4d77-9918-2e3f376ba4ab"
                     },
                     {
                         "id": "a4aba3de-9c1e-4939-968a-4f53a69fe859"
@@ -251,7 +305,9 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {}
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -295,7 +351,9 @@
                 "cloudinaryAPIKey": null,
                 "cloudinaryAPISecret": null,
                 "permissions": {
-                    "ios": {}
+                    "ios": {
+                        "usageDescriptions": {}
+                    }
                 },
                 "googleMapAPIKeyAndroid": null,
                 "googleMapAPIKeyIOS": null,
@@ -313,12 +371,65 @@
             "hasBluetoothLowEnergy": null,
             "hasPushNotification": false,
             "hasAssistant": null,
-            "dataSourceLinks": [],
+            "dataSourceLinks": [
+                {
+                    "id": "66206d89ca51139eb2ace8ba",
+                    "dataSource": {
+                        "id": "65f9f2b6e0203cc8e73341d0",
+                        "name": "BILL TO PAY LIST EXAMPLE",
+                        "configuration": {
+                            "id": "65f9f2b6e0203cc8e73341d7",
+                            "type": "GOOGLE_SHEETS",
+                            "__typename": "GoogleSheetsDataSourceConfiguration"
+                        },
+                        "collections": [
+                            {
+                                "id": "65f9f2b7b6baf3ac44fd6fe1",
+                                "name": "0",
+                                "label": "Sheet1",
+                                "fields": [
+                                    {
+                                        "id": "65f9f2b7b6baf3ac44fd6fe2",
+                                        "name": "783882857-0",
+                                        "label": "Photo of task",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "65f9f2b7b6baf3ac44fd6fe3",
+                                        "name": "1792966766-1",
+                                        "label": "BILLS TO PAY",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "65f9f2b7b6baf3ac44fd6fe4",
+                                        "name": "1979341228-2",
+                                        "label": "PAYING TO",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    },
+                                    {
+                                        "id": "65f9f2b7b6baf3ac44fd6fe5",
+                                        "name": "1408712145-3",
+                                        "label": "DUE DATE",
+                                        "type": "STRING",
+                                        "__typename": "DataSourceField"
+                                    }
+                                ],
+                                "__typename": "DataSourceCollection"
+                            }
+                        ],
+                        "__typename": "DataSource"
+                    },
+                    "__typename": "DataSourceLink"
+                }
+            ],
             "localDataSources": [],
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "1",
+            "totalCopy": "0",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
@@ -338,7 +449,7 @@
                     "screenId": "e6d27f47-0622-4e70-bece-1bfa15b7d528"
                 },
                 "d49910f7-61d1-4ba9-97d7-03465f9c3422": {
-                    "scope": "APP",
+                    "scope": "STORED",
                     "name": "user ID",
                     "screenId": "e6d27f47-0622-4e70-bece-1bfa15b7d528"
                 },
@@ -357,10 +468,70 @@
                     "name": "code",
                     "screenId": "bfbce7b3-afd7-42d3-995e-8b64953e4aca"
                 },
-                "6da38f46-3ec2-4be3-9656-8d8fc26ec548": {
+                "b0d70c0a-0ec6-4ac9-9f62-058f269b67a8": {
                     "scope": "STORED",
-                    "name": "ID",
-                    "screenId": "e6d27f47-0622-4e70-bece-1bfa15b7d528"
+                    "name": "HouseholdID",
+                    "screenId": "bfbce7b3-afd7-42d3-995e-8b64953e4aca"
+                },
+                "2aace9d1-cb22-4653-84e4-faa9383b9223": {
+                    "scope": "APP",
+                    "name": "households List",
+                    "screenId": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b"
+                },
+                "dbb48ba3-bd2c-4e79-992c-5351ef2a2e37": {
+                    "scope": "APP",
+                    "name": "quoteation counter",
+                    "screenId": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b"
+                },
+                "64fbcbb6-eb83-4b35-ab21-866d87233152": {
+                    "scope": "APP",
+                    "name": "string",
+                    "screenId": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b"
+                },
+                "1d37697d-ae59-47ae-917f-3a2c63f4d7c7": {
+                    "scope": "STORED",
+                    "name": "householdName",
+                    "screenId": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b"
+                },
+                "b6202e87-0484-4849-ac93-e2d2bf784f00": {
+                    "scope": "STORED",
+                    "name": "HouseIdentificationNumber",
+                    "screenId": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b"
+                },
+                "a659c004-0dd0-4950-9444-4863d7b469db": {
+                    "scope": "APP",
+                    "name": "IDList",
+                    "screenId": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b"
+                },
+                "f7d3d0fc-bf18-4d0c-a8a8-97c8dca67b78": {
+                    "scope": "STORED",
+                    "name": "fromCreatehouse",
+                    "screenId": "8bf32fbc-ed1d-4fcb-b30f-e5bfba67e6ec"
+                },
+                "e663c44f-6e84-4ed5-8941-7df63ed5e73f": {
+                    "scope": "STORED",
+                    "name": "previousScreenInput",
+                    "screenId": "8bf32fbc-ed1d-4fcb-b30f-e5bfba67e6ec"
+                },
+                "bc6b5bb8-3c79-4c0a-9303-0fa58b2678ea": {
+                    "scope": "STORED",
+                    "name": "userList",
+                    "screenId": "67aff998-bc76-4d77-9918-2e3f376ba4ab"
+                },
+                "90087037-0359-42f1-b2aa-5978f3148fe6": {
+                    "scope": "APP",
+                    "name": "quotations",
+                    "screenId": "67aff998-bc76-4d77-9918-2e3f376ba4ab"
+                },
+                "59dc5f68-ed34-4399-bad9-8ee5aa1e5b73": {
+                    "scope": "APP",
+                    "name": "NAME",
+                    "screenId": "67aff998-bc76-4d77-9918-2e3f376ba4ab"
+                },
+                "48c128d2-6360-49ba-894a-e6e944dde03b": {
+                    "scope": "APP",
+                    "name": "names",
+                    "screenId": "a4aba3de-9c1e-4939-968a-4f53a69fe859"
                 }
             },
             "defaultDesignerDevice": "PHONE",
