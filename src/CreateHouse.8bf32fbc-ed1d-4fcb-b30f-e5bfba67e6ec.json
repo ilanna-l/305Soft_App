@@ -58,11 +58,65 @@
     },
     "children": [
         {
+            "type": "Button",
+            "translatedName": "Button",
+            "properties": {
+                "Text": "Navigate to Join Household",
+                "TextColor": "#FFFFFF",
+                "FontSize": 16,
+                "Font": "",
+                "CustomFont": "",
+                "BackgroundColor": "rgba(53, 78, 105, 1)",
+                "Height": 49,
+                "Width": 311,
+                "Visible": false,
+                "X": 30,
+                "Y": 489,
+                "RelativeX": 30,
+                "RelativeY": 489,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "borderRadius": 15,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "42%",
+                    "top": "67.10550974512743%",
+                    "display": "none"
+                },
+                "FontBold": false,
+                "FontItalic": false,
+                "Raised": false,
+                "Disabled": false,
+                "ParentId": "8bf32fbc-ed1d-4fcb-b30f-e5bfba67e6ec",
+                "position": "absolute",
+                "edgeOffsets": 489
+            },
+            "children": [],
+            "id": "fe1c78cd-c50f-4ab7-8e68-576fa055e66b",
+            "thunkableVersion": 453,
+            "name": "joinhouseholdTWOO"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
             "properties": {
-                "Text": "Label",
+                "Text": "",
                 "FontSize": 18,
                 "Font": "",
                 "CustomFont": "",
@@ -71,10 +125,10 @@
                 "Height": 126,
                 "Width": 348,
                 "Visible": true,
-                "X": 8.9921875,
-                "Y": 276,
-                "RelativeX": 8.9921875,
-                "RelativeY": 276,
+                "X": 12,
+                "Y": 297,
+                "RelativeX": 12,
+                "RelativeY": 297,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -115,8 +169,8 @@
                 },
                 "ParentId": "8bf32fbc-ed1d-4fcb-b30f-e5bfba67e6ec",
                 "position": "absolute",
-                "edgeOffsets": 276,
-                "children": "Label"
+                "edgeOffsets": 297,
+                "children": ""
             },
             "children": [],
             "id": "019b4694-9b13-4d7f-89f0-97cf987e4fd2",
@@ -128,7 +182,7 @@
             "translatedName": "Button",
             "properties": {
                 "Text": "CANCEL",
-                "TextColor": "#FFFFFF",
+                "TextColor": "rgba(255, 255, 255, 1)",
                 "FontSize": 16,
                 "Font": "Roboto Condensed",
                 "CustomFont": "",
@@ -336,8 +390,8 @@
                     "translatedName": "Label",
                     "reactType": "Text",
                     "properties": {
-                        "Text": "House Settings",
-                        "FontSize": 26,
+                        "Text": "Choose a Name for your Household",
+                        "FontSize": 20,
                         "Font": "",
                         "CustomFont": "",
                         "LineHeight": 1,
@@ -355,7 +409,7 @@
                         "ResizeMode": "STRETCH",
                         "style": {
                             "color": "rgba(53, 78, 105, 1)",
-                            "fontSize": 26,
+                            "fontSize": 20,
                             "fontStyle": "normal",
                             "textShadowOffset": {},
                             "letterSpacing": 0,
@@ -396,7 +450,7 @@
                         "ParentId": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
                         "position": "absolute",
                         "edgeOffsets": 34,
-                        "children": "House Settings"
+                        "children": "Choose a Name for your Household"
                     },
                     "children": [],
                     "id": "0c43f5a2-fe62-441c-a27f-2a864c126ec7",
