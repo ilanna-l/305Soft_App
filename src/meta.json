@@ -12,9 +12,22 @@
                             "reactType": "Web",
                             "properties": {},
                             "children": [],
+                            "id": "a16084ae-ea20-402e-aa19-cb9013b6931b",
+                            "thunkableVersion": 454,
+                            "name": "Web_API"
+                        },
+                        {
+                            "type": "Web API",
+                            "translatedName": "Web API",
+                            "isApi": true,
+                            "reactType": "Web",
+                            "properties": {
+                                "URL": "https://addchore-ukwvuxh5ra-uc.a.run.app/"
+                            },
+                            "children": [],
                             "id": "3db788d4-67c9-4579-a209-1d1edbd58df7",
                             "thunkableVersion": 452,
-                            "name": "Web_API1"
+                            "name": "AddChore"
                         },
                         {
                             "type": "Web API",
@@ -47,8 +60,8 @@
                     "createdAt": "2024-03-05T19:08:17.789Z",
                     "updatedAt": "2024-03-05T19:08:17.789Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b25c850d4f596d43290b56/projects/65e76d90eb0753c688a9c172/assets/65e76da1f05d06f409f04b15?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240422%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240422T162757Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=667697f6ac7ed4a940f08e6930152dea464f8dbd869baf891f46667bd8228c905d526578a11e5e3f35ffa7d3296fb6caf44bfb54d5adc6dc8453abe9403ae990219e89f8072decba7935e0dceec6e1551f56c4b85770990ee12f3cc91592c21dd15261c360afdcc0ba7f8920e594e984794634cfdcd8399fd2fd1ef467a805f0fa2c324c236e9fa94881df8c9971d715c56c7cf4ea5a0c3ea3d1033996f0eb6b0109a3205b603cacc6664c766cec4e14683c100a6ee83b32552f10d40e6d03af0611b77263a1f8649d73337e899347a4bd51eb6c4fc0e682ba31785a0a8d2216db0b4b233a2eae13d546abaf613eaf43237626327d7c6611c366f9cdd9312002",
-                    "signedUrlExpirationTime": 1713976077043
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65b25c850d4f596d43290b56/projects/65e76d90eb0753c688a9c172/assets/65e76da1f05d06f409f04b15?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240426%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240426T003724Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=707633662cccb361407967f4c4825c1dce66ae27fd298a627b838c934d689dbd8b0519a351473b37695396e12a1eb43772a0435959873de0f8b8d2def87a3cd4124493045aee46841d3ae80b5ca4113366fda3496889dab68d2dacfaafcaa0e2c3398abb0a606dc8b7f6c07a293d04c2c46c8d561f2a456d6075a6a59e4c509d36f09a8ab61a50d7c580d270dd8cbca658e15982ca3e0c1757b9a9fe357809db8caa11909904c9cd31c20dde86a046663fb0d276b6548bd9508783df0a1d15c548bdb318a769b8a2cb261855d16e79407a6e98280de33f62ebf81e7c29d532c7dd1645f8c987df4349ca47cce1cf189660a61d2968c1817895dba2f41494cf36",
+                    "signedUrlExpirationTime": 1714264644199
                 }
             },
             "backendUpgradeVersion": 25,
@@ -543,16 +556,6 @@
                     "name": "ct",
                     "screenId": "a4aba3de-9c1e-4939-968a-4f53a69fe859"
                 },
-                "4d0a6318-45b0-48e7-8ebd-31c97242adf6": {
-                    "scope": "APP",
-                    "name": "ct2",
-                    "screenId": "e0e1d623-10fc-4d92-a6f3-ea69f1e06533"
-                },
-                "fcd95722-9d3a-4d08-97b4-e796206bf43e": {
-                    "scope": "APP",
-                    "name": "Listslist",
-                    "screenId": "e0e1d623-10fc-4d92-a6f3-ea69f1e06533"
-                },
                 "84e9fbb1-ca25-4f72-9b35-983bb600e6d8": {
                     "scope": "APP",
                     "name": "ct3",
@@ -561,6 +564,46 @@
                 "20da643a-638c-4d94-b169-e4368b74959d": {
                     "scope": "APP",
                     "name": "BillsList",
+                    "screenId": "b1657e7d-1ccc-46de-9093-df9b84914b50"
+                },
+                "9bea4242-83c9-45b6-9cda-0cf196273f5e": {
+                    "scope": "APP",
+                    "name": "choreName",
+                    "screenId": "a4aba3de-9c1e-4939-968a-4f53a69fe859"
+                },
+                "c0946468-0e40-40a4-a463-2e2207aa7d7a": {
+                    "scope": "APP",
+                    "name": "chorenameList",
+                    "screenId": "a4aba3de-9c1e-4939-968a-4f53a69fe859"
+                },
+                "921b1629-c0a5-40df-8b93-ae7ffc1ba78b": {
+                    "scope": "APP",
+                    "name": "GroceriesDisplayed",
+                    "screenId": "e0e1d623-10fc-4d92-a6f3-ea69f1e06533"
+                },
+                "e0890103-3911-4f11-a6a3-702d68156024": {
+                    "scope": "APP",
+                    "name": "Count",
+                    "screenId": "e0e1d623-10fc-4d92-a6f3-ea69f1e06533"
+                },
+                "f804493c-2012-415f-802c-92a233a685a4": {
+                    "scope": "APP",
+                    "name": "GroceryNameList",
+                    "screenId": "e0e1d623-10fc-4d92-a6f3-ea69f1e06533"
+                },
+                "c994d85e-c5fe-4e28-9af1-f9781d99729f": {
+                    "scope": "APP",
+                    "name": "GroceryName",
+                    "screenId": "e0e1d623-10fc-4d92-a6f3-ea69f1e06533"
+                },
+                "d12e9409-c23e-4f57-ae89-c92c94876283": {
+                    "scope": "APP",
+                    "name": "BillName",
+                    "screenId": "b1657e7d-1ccc-46de-9093-df9b84914b50"
+                },
+                "bc953b6f-5cd4-4c48-88e9-164aabd78716": {
+                    "scope": "APP",
+                    "name": "BillNameList",
                     "screenId": "b1657e7d-1ccc-46de-9093-df9b84914b50"
                 }
             },
