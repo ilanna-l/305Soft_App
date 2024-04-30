@@ -322,7 +322,7 @@
             "properties": {
                 "Text": "SELECT EXISTING HOUSEHOLD",
                 "TextColor": "#FFFFFF",
-                "FontSize": 16,
+                "FontSize": 12,
                 "Font": "Roboto Condensed",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(53, 78, 105, 1)",
@@ -377,7 +377,7 @@
             "properties": {
                 "Text": "CREATE NEW HOUSEHOLD",
                 "TextColor": "#FFFFFF",
-                "FontSize": 16,
+                "FontSize": 12,
                 "Font": "Roboto Condensed",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(53, 78, 105, 1)",

@@ -494,7 +494,7 @@
             "properties": {
                 "Text": "Select Household",
                 "TextColor": "rgba(255, 255, 255, 1)",
-                "FontSize": 16,
+                "FontSize": 12,
                 "Font": "",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(53, 78, 105, 1)",
@@ -502,9 +502,9 @@
                 "Width": 126,
                 "Visible": true,
                 "X": 204,
-                "Y": 497,
+                "Y": 496,
                 "RelativeX": 204,
-                "RelativeY": 497,
+                "RelativeY": 496,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -535,7 +535,7 @@
                 "Disabled": false,
                 "ParentId": "67aff998-bc76-4d77-9918-2e3f376ba4ab",
                 "position": "absolute",
-                "edgeOffsets": 497
+                "edgeOffsets": 496
             },
             "children": [],
             "id": "19298510-eb29-43f6-a4fd-1979676a23de",

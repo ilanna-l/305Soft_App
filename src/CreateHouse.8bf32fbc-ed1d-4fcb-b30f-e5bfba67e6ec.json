@@ -391,7 +391,7 @@
                     "reactType": "Text",
                     "properties": {
                         "Text": "Choose a Name for your Household",
-                        "FontSize": 20,
+                        "FontSize": 14,
                         "Font": "",
                         "CustomFont": "",
                         "LineHeight": 1,
@@ -409,7 +409,7 @@
                         "ResizeMode": "STRETCH",
                         "style": {
                             "color": "rgba(53, 78, 105, 1)",
-                            "fontSize": 20,
+                            "fontSize": 14,
                             "fontStyle": "normal",
                             "textShadowOffset": {},
                             "letterSpacing": 0,

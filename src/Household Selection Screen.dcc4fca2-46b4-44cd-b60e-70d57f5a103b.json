@@ -115,7 +115,7 @@
             "properties": {
                 "Text": "Join or Create a new Household",
                 "TextColor": "rgba(255, 255, 255, 1)",
-                "FontSize": 16,
+                "FontSize": 12,
                 "Font": "",
                 "CustomFont": "",
                 "BackgroundColor": "rgba(53, 78, 105, 1)",
