@@ -585,10 +585,10 @@
                 "Height": 53,
                 "Width": 147,
                 "Visible": true,
-                "X": 109,
-                "Y": 481,
-                "RelativeX": 109,
-                "RelativeY": 481,
+                "X": 115,
+                "Y": 482,
+                "RelativeX": 115,
+                "RelativeY": 482,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -619,7 +619,7 @@
                 "Disabled": false,
                 "ParentId": "1fcee405-7d2c-4c72-8b92-68abbbd7cc5f",
                 "position": "absolute",
-                "edgeOffsets": 481.99655151367193
+                "edgeOffsets": 482
             },
             "children": [],
             "id": "eed803eb-2521-4eca-9672-77304cba7630",
@@ -640,9 +640,9 @@
                 "Height": 59,
                 "Width": 211,
                 "Visible": true,
-                "X": 81,
+                "X": 83,
                 "Y": 408,
-                "RelativeX": 81,
+                "RelativeX": 83,
                 "RelativeY": 408,
                 "ResizeMode": "STRETCH",
                 "style": {

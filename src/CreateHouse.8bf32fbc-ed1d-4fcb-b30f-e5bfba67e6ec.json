@@ -297,10 +297,10 @@
                 "Height": 45,
                 "Width": 235,
                 "Visible": true,
-                "X": 23,
-                "Y": 147,
-                "RelativeX": 23,
-                "RelativeY": 147,
+                "X": 69,
+                "Y": 146,
+                "RelativeX": 69,
+                "RelativeY": 146,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -345,7 +345,7 @@
                 "underlineColorAndroid": "rgba(0, 0, 0, 0)",
                 "ParentId": "8bf32fbc-ed1d-4fcb-b30f-e5bfba67e6ec",
                 "position": "absolute",
-                "edgeOffsets": 147,
+                "edgeOffsets": 146,
                 "placeholder": "Household Name",
                 "defaultValue": ""
             },

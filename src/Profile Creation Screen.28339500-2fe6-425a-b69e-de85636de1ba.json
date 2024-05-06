@@ -1,4 +1,5 @@
 {
+    "id": "28339500-2fe6-425a-b69e-de85636de1ba",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -206,7 +207,7 @@
                     "id": "6e60ef0a-3868-4b12-8318-88378f4be1af",
                     "thunkableVersion": 453,
                     "bindings": null,
-                    "name": "Button10"
+                    "name": "TakePhoto1"
                 },
                 {
                     "type": "Button",
@@ -315,7 +316,7 @@
                     "children": [],
                     "id": "02d4d01b-c40e-4ef0-b8ab-46603c7b13a4",
                     "thunkableVersion": 453,
-                    "name": "Button11"
+                    "name": "Backbut1"
                 }
             ],
             "id": "58beddc8-ce2f-4e72-9a50-9b44fb082ef3",
@@ -798,11 +799,11 @@
             "translatedName": "Button",
             "properties": {
                 "Text": "+",
-                "TextColor": "rgba(0, 0, 0, 1)",
+                "TextColor": "rgba(255, 255, 255, 1)",
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(126, 211, 33, 1)",
+                "BackgroundColor": "rgba(53, 78, 105, 1)",
                 "Height": 30,
                 "Width": 30,
                 "Visible": true,
@@ -853,11 +854,11 @@
             "translatedName": "Button",
             "properties": {
                 "Text": "+",
-                "TextColor": "rgba(0, 0, 0, 1)",
+                "TextColor": "rgba(255, 255, 255, 1)",
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(126, 211, 33, 1)",
+                "BackgroundColor": "rgba(53, 78, 105, 1)",
                 "Height": 30,
                 "Width": 30,
                 "Visible": true,
@@ -1053,13 +1054,13 @@
                 "LineHeight": 1,
                 "Color": "rgba(53, 78, 105, 1)",
                 "TextAlign": "center",
-                "Height": 34,
-                "Width": 112,
+                "Height": 35,
+                "Width": 123,
                 "Visible": true,
-                "X": 32,
-                "Y": 199,
-                "RelativeX": 32,
-                "RelativeY": 199,
+                "X": 18,
+                "Y": 197,
+                "RelativeX": 18,
+                "RelativeY": 197,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(53, 78, 105, 1)",
@@ -1097,12 +1098,14 @@
                     "top": "27.720905172413794%",
                     "lineHeight": 1,
                     "display": "flex",
-                    "textAlign": "center"
+                    "textAlign": "center",
+                    "fontWeight": "bold"
                 },
                 "ParentId": "95a2fd29-4d0b-445d-9771-6948ffc7486f",
                 "position": "absolute",
-                "edgeOffsets": 199,
-                "children": "Profile Photo:"
+                "edgeOffsets": 197.00000000000003,
+                "children": "Profile Photo:",
+                "FontWeight": "bold"
             },
             "children": [],
             "id": "a6f33606-6b31-40da-a334-acc8ac08a21b",
@@ -1166,12 +1169,14 @@
                     "top": "27.720905172413794%",
                     "lineHeight": 1,
                     "display": "flex",
-                    "textAlign": "center"
+                    "textAlign": "center",
+                    "fontWeight": "bold"
                 },
                 "ParentId": "95a2fd29-4d0b-445d-9771-6948ffc7486f",
                 "position": "absolute",
                 "edgeOffsets": 147,
-                "children": "User Name:"
+                "children": "User Name:",
+                "FontWeight": "bold"
             },
             "children": [],
             "id": "af77531e-97dc-4913-8caf-67eba923733f",
@@ -1288,7 +1293,6 @@
             "name": "Header Group8"
         }
     ],
-    "id": "28339500-2fe6-425a-b69e-de85636de1ba",
     "thunkableVersion": 453,
     "bindings": null,
     "name": "Profile Creation Screen"

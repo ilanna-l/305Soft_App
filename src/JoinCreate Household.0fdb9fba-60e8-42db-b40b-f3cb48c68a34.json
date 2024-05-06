@@ -7,7 +7,7 @@
         "Height": "Fill container",
         "Width": "Fill container",
         "Layout": "column",
-        "BackgroundColor": "rgba(214, 227, 238, 1)",
+        "BackgroundColor": "rgba(214, 227, 238, 0.88)",
         "Justification": "center",
         "Alignment": "center",
         "Visible": true,
@@ -32,7 +32,7 @@
             "justifyContent": "center",
             "alignItems": "center",
             "display": "flex",
-            "backgroundColor": "rgba(214, 227, 238, 1)"
+            "backgroundColor": "rgba(214, 227, 238, 0.88)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -427,6 +427,55 @@
             "name": "Button6"
         },
         {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "LOGO.jpg",
+                "resizeMode": "stretch",
+                "Height": 248,
+                "Width": 248,
+                "Visible": true,
+                "X": 64,
+                "Y": 0,
+                "RelativeX": 64,
+                "RelativeY": 0,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "19.91943604171256%",
+                    "top": "18.58559428415186%",
+                    "display": "flex",
+                    "backgroundColor": "rgba(0, 0, 0, 0)"
+                },
+                "capInsets": {},
+                "ParentId": "1fcee405-7d2c-4c72-8b92-68abbbd7cc5f",
+                "position": "absolute",
+                "edgeOffsets": 0,
+                "BackgroundColor": "rgba(0, 0, 0, 0)"
+            },
+            "children": [],
+            "id": "bca196a4-4e27-477f-9610-c5dd602f4bfe",
+            "thunkableVersion": 454,
+            "bindings": null,
+            "name": "Image8"
+        },
+        {
             "type": "Button",
             "translatedName": "Button",
             "properties": {
@@ -479,54 +528,6 @@
             "id": "34cfac1b-a0b2-4e9f-84ae-08e9bcda00e5",
             "thunkableVersion": 447,
             "name": "Button5"
-        },
-        {
-            "type": "Image",
-            "translatedName": "Image",
-            "properties": {
-                "Picture": "LOGO.jpg",
-                "resizeMode": "stretch",
-                "Height": 248,
-                "Width": 248,
-                "Visible": true,
-                "X": 60,
-                "Y": 0,
-                "RelativeX": 60,
-                "RelativeY": 0,
-                "ResizeMode": "STRETCH",
-                "style": {
-                    "marginTop": 0,
-                    "marginBottom": 0,
-                    "marginLeft": 0,
-                    "marginRight": 0,
-                    "paddingTop": 0,
-                    "paddingBottom": 0,
-                    "paddingLeft": 0,
-                    "paddingRight": 0,
-                    "shadowColor": "rgba(0, 0, 0, 0)",
-                    "shadowOpacity": 0,
-                    "scaledShadowOpacity": 0,
-                    "shadowRadius": 0,
-                    "shadowOffset": {
-                        "width": 0,
-                        "height": 0
-                    },
-                    "position": "absolute",
-                    "left": "19.91943604171256%",
-                    "top": "18.58559428415186%",
-                    "display": "flex",
-                    "backgroundColor": "rgba(0, 0, 0, 0)"
-                },
-                "capInsets": {},
-                "ParentId": "1fcee405-7d2c-4c72-8b92-68abbbd7cc5f",
-                "position": "absolute",
-                "edgeOffsets": 0,
-                "BackgroundColor": "rgba(0, 0, 0, 0)"
-            },
-            "children": [],
-            "id": "45c216cf-275e-40b0-b5b9-3b3c6a75c928",
-            "thunkableVersion": 447,
-            "name": "Image2"
         }
     ],
     "thunkableVersion": 447,
