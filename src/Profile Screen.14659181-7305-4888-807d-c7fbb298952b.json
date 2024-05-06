@@ -1,4 +1,5 @@
 {
+    "id": "14659181-7305-4888-807d-c7fbb298952b",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -206,7 +207,7 @@
                     "id": "214b643a-ba28-4c19-a3f0-67bfdba5944a",
                     "thunkableVersion": 453,
                     "bindings": null,
-                    "name": "Button12"
+                    "name": "TakePhoto2"
                 },
                 {
                     "type": "Button",
@@ -315,7 +316,7 @@
                     "children": [],
                     "id": "85668504-0789-4529-975b-f431f9706cd4",
                     "thunkableVersion": 453,
-                    "name": "Button13"
+                    "name": "Backbut"
                 }
             ],
             "id": "83d016c1-eacc-4772-8be6-41ed226b1c35",
@@ -798,11 +799,11 @@
             "translatedName": "Button",
             "properties": {
                 "Text": "+",
-                "TextColor": "rgba(0, 0, 0, 1)",
+                "TextColor": "rgba(255, 255, 255, 1)",
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(126, 211, 33, 1)",
+                "BackgroundColor": "rgba(53, 78, 105, 1)",
                 "Height": 30,
                 "Width": 30,
                 "Visible": true,
@@ -853,11 +854,11 @@
             "translatedName": "Button",
             "properties": {
                 "Text": "+",
-                "TextColor": "rgba(0, 0, 0, 1)",
+                "TextColor": "rgba(255, 255, 255, 1)",
                 "FontSize": 16,
                 "Font": "",
                 "CustomFont": "",
-                "BackgroundColor": "rgba(126, 211, 33, 1)",
+                "BackgroundColor": "rgba(53, 78, 105, 1)",
                 "Height": 30,
                 "Width": 30,
                 "Visible": true,
@@ -987,10 +988,10 @@
                 "Height": 34,
                 "Width": 112,
                 "Visible": true,
-                "X": 149,
-                "Y": 199,
-                "RelativeX": 149,
-                "RelativeY": 199,
+                "X": 150,
+                "Y": 198,
+                "RelativeX": 150,
+                "RelativeY": 198,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(53, 78, 105, 1)",
@@ -1032,7 +1033,7 @@
                 },
                 "ParentId": "95a2fd29-4d0b-445d-9771-6948ffc7486f",
                 "position": "absolute",
-                "edgeOffsets": 199,
+                "edgeOffsets": 198.99999999999997,
                 "children": ""
             },
             "children": [],
@@ -1053,13 +1054,13 @@
                 "LineHeight": 1,
                 "Color": "rgba(53, 78, 105, 1)",
                 "TextAlign": "center",
-                "Height": 34,
-                "Width": 112,
+                "Height": 35,
+                "Width": 132,
                 "Visible": true,
-                "X": 32,
-                "Y": 199,
-                "RelativeX": 32,
-                "RelativeY": 199,
+                "X": 18,
+                "Y": 197,
+                "RelativeX": 18,
+                "RelativeY": 197,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(53, 78, 105, 1)",
@@ -1097,12 +1098,14 @@
                     "top": "27.720905172413794%",
                     "lineHeight": 1,
                     "display": "flex",
-                    "textAlign": "center"
+                    "textAlign": "center",
+                    "fontWeight": "bold"
                 },
                 "ParentId": "95a2fd29-4d0b-445d-9771-6948ffc7486f",
                 "position": "absolute",
-                "edgeOffsets": 199,
-                "children": "Profile Photo:"
+                "edgeOffsets": 197,
+                "children": "Profile Photo:",
+                "FontWeight": "bold"
             },
             "children": [],
             "id": "588bb5bc-ed12-4398-b888-efd27143777f",
@@ -1166,12 +1169,14 @@
                     "top": "27.720905172413794%",
                     "lineHeight": 1,
                     "display": "flex",
-                    "textAlign": "center"
+                    "textAlign": "center",
+                    "fontWeight": "bold"
                 },
                 "ParentId": "95a2fd29-4d0b-445d-9771-6948ffc7486f",
                 "position": "absolute",
                 "edgeOffsets": 147,
-                "children": "User Name:"
+                "children": "User Name:",
+                "FontWeight": "bold"
             },
             "children": [],
             "id": "1d0f512f-ea39-4295-ae9e-2edd81381241",
@@ -1288,7 +1293,6 @@
             "name": "Header Group9"
         }
     ],
-    "id": "14659181-7305-4888-807d-c7fbb298952b",
     "thunkableVersion": 453,
     "bindings": null,
     "name": "Profile Screen"

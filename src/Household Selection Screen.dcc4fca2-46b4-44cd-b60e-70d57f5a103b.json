@@ -1,4 +1,5 @@
 {
+    "id": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -274,7 +275,6 @@
             "name": "Header Group6"
         }
     ],
-    "id": "dcc4fca2-46b4-44cd-b60e-70d57f5a103b",
     "thunkableVersion": 453,
     "bindings": null,
     "name": "Household Selection Screen"
