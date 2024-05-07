@@ -599,7 +599,7 @@
             "id": "395a9096-294f-450e-8332-c92708107193",
             "thunkableVersion": 454,
             "bindings": null,
-            "name": "EDITgrocery_screen2"
+            "name": "EDITBill_screen"
         },
         {
             "type": "Group",
@@ -1139,7 +1139,7 @@
                     "translatedName": "Label",
                     "reactType": "Text",
                     "properties": {
-                        "Text": "Assigned Users:",
+                        "Text": "Pay To:",
                         "FontSize": 18,
                         "Font": "",
                         "CustomFont": "",
@@ -1195,7 +1195,7 @@
                         "ParentId": "b1657e7d-1ccc-46de-9093-df9b84914b50",
                         "position": "absolute",
                         "edgeOffsets": 293,
-                        "children": "Assigned Users:"
+                        "children": "Pay To:"
                     },
                     "children": [],
                     "id": "a8b41379-19d6-485e-9e72-8c95cb907ca2",
@@ -1663,7 +1663,7 @@
             "id": "279c50de-0b58-4912-bbd7-ea328f8ffa52",
             "thunkableVersion": 454,
             "bindings": null,
-            "name": "AddGroceryScreen1"
+            "name": "AddBillScreen"
         },
         {
             "type": "Label",
