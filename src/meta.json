@@ -632,6 +632,11 @@
                     "scope": "APP",
                     "name": "BillNameList",
                     "screenId": "b1657e7d-1ccc-46de-9093-df9b84914b50"
+                },
+                "aa65a324-d187-4eaf-a489-e75164e45592": {
+                    "scope": "APP",
+                    "name": "numOfMembers",
+                    "screenId": "b1657e7d-1ccc-46de-9093-df9b84914b50"
                 }
             },
             "defaultDesignerDevice": "PHONE",
