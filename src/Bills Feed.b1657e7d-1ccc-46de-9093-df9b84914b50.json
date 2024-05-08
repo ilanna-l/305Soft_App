@@ -408,7 +408,7 @@
                     "translatedName": "Label",
                     "reactType": "Text",
                     "properties": {
-                        "Text": "Do you want to delete this grocery item?",
+                        "Text": "Do you want to delete this bill?",
                         "FontSize": 28,
                         "Font": "",
                         "CustomFont": "",
@@ -464,7 +464,7 @@
                         "ParentId": "b1657e7d-1ccc-46de-9093-df9b84914b50",
                         "position": "absolute",
                         "edgeOffsets": 225.00000000000003,
-                        "children": "Do you want to delete this grocery item?"
+                        "children": "Do you want to delete this bill?"
                     },
                     "children": [],
                     "id": "8a75283d-4080-4464-9006-48b4e1312109",
