@@ -367,7 +367,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "ROOMIE_dev",
+            "projectName": "ROOMIE",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -469,7 +469,7 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "1",
+            "totalCopy": "2",
             "totalStar": "0",
             "starAction": "star",
             "variables": {
