@@ -4,7 +4,7 @@ Contributors: Ilanna Langton, Jenny You, Justin Chacon, Angel Castano, Mani Duke
 
 **Website** <br>
 Visit our site!
-(https://imdukes555.wixsite.com/roomieri/how-to)
+(https://imdukes555.wixsite.com/roomieri)
 
 **About** <br>
 Roomie is an app built for roomates to deliberate and track house chores in a drama free way. Users are able to join, create, and manage shared household objects, which hold all the bills,expenses, and chores for the home. These chores are able to be assigned and marked as completed for everyone to see. This allows roommates to hold eachother accountable for things that need to get done. src folder houses the app code from thunkable. Backend is in google firebase. 
