@@ -34,7 +34,7 @@ Here is an example of generating a random Household ID:
 <img width="714" alt="Screenshot 2024-05-08 at 9 10 22 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/dd3d54ff-25cd-4668-bddf-b96e2712eded">
 
 ## creating objects in the Firebase Database through drag and drop
-Cloud functions are not the only way to create and push objects into the database. In this example, we find a user creating an object "grocery" with attributes such as the assigned users, the cost, the description of the grocery, and whether the task is complete or not. This creates an item in the Household's database which will be displayed as a task for the assigned users to complete. 
+In this example, we find a user creating an object "grocery" with attributes such as the assigned users, the cost, the description of the grocery, and whether the task is complete or not. This creates an item in the Household's database which will be displayed as a task for the assigned users to complete. 
 
 <img width="660" alt="Screenshot 2024-05-08 at 9 28 49 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/58113e47-21f8-4f37-a66a-b4ed44e80aa4">
 
