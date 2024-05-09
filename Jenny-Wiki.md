@@ -3,7 +3,7 @@ For the front end of our application, we decided to create the UI using Thunkabl
 
 # Thunkable UI
 An example of buttons and labels featured in Thunkable's UI can be seen here:
-<img width="484" alt="Screenshot 2024-05-08 at 9 15 52 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/5c5364ed-b350-4356-ab43-10dc19ad58ab">
+<img width="484" alt="Screenshot 2024-05-08 at 9 15 52 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/5c5364ed-b350-4356-ab43-10dc19ad58ab"></br>
 There are many more components such as lists to display data, imagery, and even animations. 
 
 # Thunkable Drag and Drop Code
