@@ -1,3 +1,17 @@
+# Thunkable Blocks
+For the front end of our application, we decided to create the UI using Thunkable's drag and drop code platform. For the Thunkable platform, we are able to add components to the UI such as buttons, labels, screens, and more. With the drag and drop code blocks, we are able to make these UI components interactive. 
+
+# Thunkable UI
+An example of buttons and labels featured in Thunkable's UI can be seen here:
+<img width="484" alt="Screenshot 2024-05-08 at 9 15 52 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/5c5364ed-b350-4356-ab43-10dc19ad58ab">
+There are many more components such as lists to display data, imagery, and even animations. 
+
+# Thunkable Drag and Drop Code
+Rather than typing hundreds of lines of code, Thunkable reduces the coder's fatigue and offers a simple drag and drop method to apply code to UI components. 
+
+For example, when the user clicks the sign in or sign up button, they are directed to the appropriate screen:
+
+<img width="578" alt="Screenshot 2024-05-08 at 9 19 10 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/9f7b50d6-7594-428f-9696-71b482452566">
 
 
 # Firebase Cloud Functions
