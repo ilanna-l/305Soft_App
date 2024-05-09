@@ -11,6 +11,8 @@ Rather than typing hundreds of lines of code, Thunkable reduces the coder's fati
 
 For example, when the user clicks the sign in or sign up button, they are directed to the appropriate screen:
 
+<img width="578" alt="Screenshot 2024-05-08 at 9 19 10 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/9f7b50d6-7594-428f-9696-71b482452566">
+
 ## More features with Thunkable's Drag and Drop Code
 Our app features complex functions utilizing the drag and drop code blocks featured in Thunkable. 
 
@@ -32,9 +34,9 @@ Here is an example of generating a random Household ID:
 <img width="714" alt="Screenshot 2024-05-08 at 9 10 22 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/dd3d54ff-25cd-4668-bddf-b96e2712eded">
 
 ## creating objects in the Firebase Database through drag and drop
+Cloud functions are not the only way to create and push objects into the database. In this example, we find a user creating an object "grocery" with attributes such as the assigned users, the cost, the description of the grocery, and whether the task is complete or not. This creates an item in the Household's database which will be displayed as a task for the assigned users to complete. 
 
-<img width="578" alt="Screenshot 2024-05-08 at 9 19 10 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/9f7b50d6-7594-428f-9696-71b482452566">
-
+<img width="660" alt="Screenshot 2024-05-08 at 9 28 49 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/58113e47-21f8-4f37-a66a-b4ed44e80aa4">
 
 # Firebase Cloud Functions
 Our application uses many Firebase cloud functions in order to allow our app to communicate with the backend database, retrieving whatever information is needed in order to perform a given function on the app. 
