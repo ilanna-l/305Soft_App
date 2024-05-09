@@ -11,6 +11,28 @@ Rather than typing hundreds of lines of code, Thunkable reduces the coder's fati
 
 For example, when the user clicks the sign in or sign up button, they are directed to the appropriate screen:
 
+## More features with Thunkable's Drag and Drop Code
+Our app features complex functions utilizing the drag and drop code blocks featured in Thunkable. 
+
+## signing in
+Here is a block code function for signing the user into the app:
+
+<img width="514" alt="Screenshot 2024-05-08 at 9 10 05 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/ecb49230-8ae3-4778-9033-7433058d8719">
+
+## accessing firebase through Thunkable's drag and drop blocks
+The firebase NoSQL database stores values as objects with keys and values. This can be utilized in the Thunkable blocks to access certain elements, such as checking whether the user is already associated with a household when they try navigating to the "Select Household" screen.
+
+<img width="527" alt="Screenshot 2024-05-08 at 9 10 15 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/be048a46-d823-4160-aaf8-5d463c650902">
+
+## calling cloud functions in Thunkable
+Cloud functions are written using node.js and are called in our code for various reasons, such as generating a random Household ID for when a user creates a household. API's are used to generate data which is returned as a JSON, where the information is retrieved and used in the Thunkable block code. 
+
+Here is an example of generating a random Household ID:
+
+<img width="714" alt="Screenshot 2024-05-08 at 9 10 22 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/dd3d54ff-25cd-4668-bddf-b96e2712eded">
+
+## creating objects in the Firebase Database through drag and drop
+
 <img width="578" alt="Screenshot 2024-05-08 at 9 19 10 PM" src="https://github.com/ilanna-l/305Soft_App/assets/113469032/9f7b50d6-7594-428f-9696-71b482452566">
 
 
