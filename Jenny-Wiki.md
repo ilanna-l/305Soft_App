@@ -1,3 +1,5 @@
+
+
 # Firebase Cloud Functions
 Our application uses many Firebase cloud functions in order to allow our app to communicate with the backend database, retrieving whatever information is needed in order to perform a given function on the app. 
 
